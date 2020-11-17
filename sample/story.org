@@ -1,0 +1,158 @@
+#+title:  story
+#+SETUPFILE: ../org-templates/level-1.org
+
+* Chapter 2: Strategies and Visualisation
+
+** 2.1 Story Outline and Story:
+   Story Outline 
+
+   The story outline should give a brief idea about the
+   story. This could be 2 or 3 paragraphs.The story would
+   contain all the information regarding the coverage of the
+   virtual lab experiment.
+
+   Story
+
+   After writing the story outline, one has to now proceed
+   to write an elaborative story. The story should be in
+   simple English language. It should be logical and should
+   make sense giving all the details of the coverage of the
+   entire virtual lab experiment
+
+   The story should cover some key points, they are:
+
+       - Set the Visual Stage description
+
+       - Set the User objectives and goals
+
+       - Set the pathway activities
+
+       - Set Challenges and Questions/Complexity/ Variations
+
+       - Allow Pitfalls
+
+       - Conclusion
+
+       - Equations/ Formulas
+
+     *Set the Visual Stage description:* 
+
+     This is simply the stage on which the user will land on
+     opening the simulation. One must mention all the visual
+     elements seen by the user in the landing section. It
+     could have different elements like buttons, sliders,
+     drop down menus or some image with text.. One has to
+     list them down in a simple language so that one can
+     visualise how the landing page would look like
+
+    *Set the User objectives and goals:* 
+
+     In this sectio, one should describe the objectives and
+     goals of the experiment. The objectives and the goals
+     should be written clearly and explain how the
+     experiment would begin and what would be the flow of
+     the experiment. This should not be confused with
+     bloom's LO's as this is experiment specific objective
+     and not concept specific LO.
+
+     *Set the pathway activities:* 
+     
+     Pathway means the path required to achieve a particular
+     objective. So pathway activities implies how a user
+     will traverse through the experiment. There could be
+     several pathways on achieving the objectives but one
+     should ensure that an effective pathway is chosen.
+
+     *Set Challenges and Questions/Complexity/ Variations:*
+
+     In this section one has to set challenges based on the
+     user's level. By user's level it means, for set of weak
+     students even a easy challenge can be difficult. So it
+     is important to define the level of challenge
+     properly. These challenges could be questions or
+     problem solving. It would help the user in two ways,
+     one is to invoke curiosity and interest and other to
+     ensure learning and relearning.
+
+     *Allow Pitfalls:*
+
+     We often say that people learn from experiences.  These
+     experiences help clearing misconceptions,
+     misunderstandings. The same thing holds true here, to
+     "allow pitfalls" means to put the user in a situation
+     where the user can make mistakes and then re-learn from
+     it. This can be done in different ways, like allowing
+     pitfalls in challenges or tricky questions. This would
+     also help us understand the engagement factor of user.
+  
+     *Conclusion:*
+
+     This may include displaying: how much time was taken?/
+     How many questions were right?/ How many hints did the
+     learner use. Based on this the evaluation/marking to be
+     suggested to the user. Once the user is towards the
+     completion of the experiment, there should be
+     descriptive interpretation based on the user's
+     performance.  For example, It could be the user has
+     understood properly and which LO needs more effort
+ 
+     *Equations/ Formulas:* 
+
+     These equations and formulas responsible for the
+     working of experiment should be mentioned in a separate
+     sheet. These equations could be written with a brief
+     description about the dependent and independent
+     variables and which equation is used where. Thus these
+     formulas and equations basically govern the entire
+     experiment and should be mentioned clearly so that one
+     can easily troubleshoot in case of any difficulty
+** 2.2 Flowchart
+   
+   Flowchart is a diagram that helps us understand a
+   process. For instance if you had a robot and want to set
+   instructions for it. One simple way is to do it as shown
+   in the figure.
+   <<image>>
+
+  The steps should be logical and reasoned. A flowchart
+  basically gives us a logical flow and it is used in
+  virtual lab experiments to define the process involved in
+  the virtual lab experiment. The process could involve
+  steps that has to be followed and instructions must be
+  provided with a proper drawing. One can draw the flowchart
+  and save the flowchart as .png.
+** 2.3 Mindmap
+   A mind map is a diagram used to visually organize
+   information. A simple mind map can look like this: 
+   <<image>>
+   
+   The main objective of mind map is to visually represent
+   sub concepts linked to the main concept. The topic or the
+   main topic is located at the center and is connected to
+   subtopics independently. Furthermore these subtopics can
+   be further connected to micro level of subtopics.
+
+   For example Heat ---measured by -----> thermometer ----- can be  ----> gas thermometer. 
+** 2.4 Storyboard
+   A storyboard is a graphic organizer in the form of
+   illustrations or images displayed in sequence. It is used
+   for the purpose of pre-visualizing a motion picture, or
+   interactive media sequence.
+   
+   <<image>>
+
+   In this case it is the virtual lab simulation. Making a
+   general storyboard is very simple. Storyboard can be
+   drawn frame by frame and what is to be present can be
+   represented via cartoons, objects etc. One can make
+   storyboard using https://wonderunit.com/storyboarder/. Or
+   can use any other Open Source Image editing / drawing
+   tool
+
+  <<image>>
+   
+
+#+NAME:   fig:flowchart
+ [[file:../images/hosting-process.png]]
+
+ /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
