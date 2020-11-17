@@ -1,4 +1,4 @@
-#+title:  story
+#+title: Chapter 2: Strategies and Visualisation
 #+SETUPFILE: ../org-templates/level-1.org
 
 * Chapter 2: Strategies and Visualisation
