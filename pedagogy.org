@@ -41,7 +41,7 @@
     6. *Round 5-* This is the final stage where review and
        approval would be done by the virtual labs team.
 
-       #+NAME:   fig:flowchart
+       #+NAME:   fig:
        [[file:../images/ch1-image0.jpg]]
 
       /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
@@ -109,7 +109,10 @@
     used in developing an experiment This taxonomy
     classifies learning based on cognitive skills.
     
-    <<figure>>
+    #+NAME:   fig:
+       [[file:../images/ch1-image1.png]]
+
+      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
 
    Cognition means, the process of acquiring knowledge
    through means like thinking, reasoning, observing, memory
@@ -261,7 +264,10 @@
    use while
 
    *Types of instructional strategies:*
-   <<image>>
+   #+NAME:   fig:
+       [[file:../images/ch1-image2.png]]
+
+      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
  
    There are four types of instructional strategies:
 
@@ -368,7 +374,10 @@
    learning objectives defined for that experiment and build
    task and assessment corresponding every LO.
 
-   <<image>> 
+   #+NAME:   fig:
+       [[file:../images/ch1-image3.png]]
+
+      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
 
    So the crux of it is, every LO needs to have a task and
    assessment question. The task could be performing some
@@ -430,6 +439,15 @@
    specifics.
 
 
-   <<image>>
+   #+NAME:   fig:
+       [[file:../images/ch1-R1_MindMap.png]]
 
+      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+
+   #+NAME:   fig:
+       [[file:../images/ch1-r1_IC.png]]
+
+      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+
+  
 
