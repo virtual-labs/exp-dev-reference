@@ -1,4 +1,3 @@
-#+title:  pedagogy
 #+SETUPFILE: ../org-templates/level-1.org
 
 
@@ -104,7 +103,7 @@
     But in order to write good learning objectives Bloom's
     taxonomy should be used. Dr Benjamin Bloom invented a
     way of classifying learning objectives now known as
-    Bloom°Øs Taxonomy. There are 6 levels of objectives or
+    Bloom‚Äôs Taxonomy. There are 6 levels of objectives or
     cognitive levels in Bloom's taxonomy which should be
     used in developing an experiment This taxonomy
     classifies learning based on cognitive skills.
@@ -259,7 +258,7 @@
    Instruction is a combination of teaching and learning
    activities. Instruction is a whole process that includes
    facilitating the learning process and guiding the
-   students. Strategy means °∞plan of action°±. Instructional
+   students. Strategy means ‚Äúplan of action‚Äù. Instructional
    strategy helps in choosing which approach or strategy to
    use while
 
@@ -273,7 +272,7 @@
 
    Expository  
 
-   'Do as per the instructions°Ø - Stereotype
+   'Do as per the instructions‚Äô - Stereotype
    protocol. Almost all the physical labs follow this
    methodology. Thus it addresses only the first three
    cognitive levels. Moreover, it does not involve critical
@@ -319,10 +318,10 @@
    strategy with the only difference being the problem
    statement is associated with the real world. In the case
    of determination of friction factor, the problem may be
-   posed as follows: °ÆA pipeline needs to be designed for
+   posed as follows: ‚ÄòA pipeline needs to be designed for
    given flow conditions with a limitation on the pressure
    drop and the pump required to cater to this service be
-   specified°Ø. Thus, the objectives are well defined but the
+   specified‚Äô. Thus, the objectives are well defined but the
    remaining protocol needs to be proposed by the students.
 
 
@@ -365,7 +364,7 @@
 
    Summative assessment:Summative Assessments: Assessments
    conducted after the learning has been completed to test
-   student°Øs understanding of a concept. This happens after
+   student‚Äôs understanding of a concept. This happens after
    the process of learning.
 
    Relating LO's, Assessments and Tasks
@@ -382,7 +381,7 @@
    So the crux of it is, every LO needs to have a task and
    assessment question. The task could be performing some
    action in the simulation and then attempting assessment
-   questions in the form of MCQ°Øs. For example, we could ask
+   questions in the form of MCQ‚Äôs. For example, we could ask
    the student to set the values of a parameter through
    slider and observe the reading in an apparatus and then
    analyse the data to interpret the results. Using this we
@@ -423,7 +422,7 @@
    inputs provided by the user. Note that the action by the
    user or the student should have one to one
    correspondence. One has to give the detailed information
-   on the simulator°Øs interactivity.
+   on the simulator‚Äôs interactivity.
 
    Purpose of the task?
 
@@ -431,7 +430,7 @@
    the purpose or the objective of the task the user does to
    get some interactive feedback from the simulator. This
    section mainly should explain how learning will happen
-   through the student°Øs input and simulator°Øs feedback.
+   through the student‚Äôs input and simulator‚Äôs feedback.
 
    All the three sections have 1 to 1 relation and one must
    note that there should be logical and well reasoned
