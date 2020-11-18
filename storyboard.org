@@ -116,10 +116,7 @@ The following material is also distributed under [[https://creativecommons.org/l
    instructions for it. One simple way is to do it as shown
    in the figure.
    #+NAME:   fig:
-       [[file:../images/ch2-pastedImage0.png]]
-
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
-
+       [[file:images/ch2-pastedImage0.png]]
 
   The steps should be logical and reasoned. A flowchart
   basically gives us a logical flow and it is used in
@@ -133,9 +130,7 @@ The following material is also distributed under [[https://creativecommons.org/l
    information. A simple mind map can look like this: 
    
    #+NAME:   fig:
-       [[file:../images/ch2-pastedImage1.png]]
-
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+       [[file:images/ch2-pastedImage1.png]]
 
    
    The main objective of mind map is to visually represent
@@ -152,9 +147,9 @@ The following material is also distributed under [[https://creativecommons.org/l
    interactive media sequence.
    
     #+NAME:   fig:
-       [[file:../images/ch2-pastedImage2.png]]
+       [[file:images/ch2-pastedImage2.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+
 
 
    In this case it is the virtual lab simulation. Making a
@@ -166,12 +161,9 @@ The following material is also distributed under [[https://creativecommons.org/l
    tool
 
  #+NAME:   fig:
-       [[file:../images/ch2-Gu_BC_Webinars_presentations_R2_Process.png]]
+       [[file:images/ch2-Gu_BC_Webinars_presentations_R2_Process.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
-   
 
-#+NAME:   fig:flowchart
- [[file:../images/ch2Gu_BC_Webinars_presentations_R2_Process_Interlink.png]]
+#+NAME:   fig:
+       [[file:images/ch2Gu_BC_Webinars_presentations_R2_Process_Interlink.png]]
 
- /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/

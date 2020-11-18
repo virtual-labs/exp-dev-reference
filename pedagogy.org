@@ -44,9 +44,9 @@ The following material is also distributed under [[https://creativecommons.org/l
        approval would be done by the virtual labs team.
 
        #+NAME:   fig:
-       [[file:../images/ch1-image0.jpg]]
+       [[file:images/ch1-image0.jpg]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+ 
 
 ** 1.1 Focus Area
     Focus area is the area of focus in any virtual lab
@@ -112,10 +112,9 @@ The following material is also distributed under [[https://creativecommons.org/l
     classifies learning based on cognitive skills.
     
     #+NAME:   fig:
-       [[file:../images/ch1-image1.png]]
+       [[file:images/ch1-image1.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
-
+    
    Cognition means, the process of acquiring knowledge
    through means like thinking, reasoning, observing, memory
    recall etc. Some of the cognitive skills are easy for
@@ -267,10 +266,9 @@ The following material is also distributed under [[https://creativecommons.org/l
 
    *Types of instructional strategies:*
    #+NAME:   fig:
-       [[file:../images/ch1-image2.png]]
+       [[file:images/ch1-image2.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
- 
+     
    There are four types of instructional strategies:
 
    Expository  
@@ -377,9 +375,8 @@ The following material is also distributed under [[https://creativecommons.org/l
    task and assessment corresponding every LO.
 
    #+NAME:   fig:
-       [[file:../images/ch1-image3.png]]
+       [[file:images/ch1-image3.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
 
    So the crux of it is, every LO needs to have a task and
    assessment question. The task could be performing some
@@ -442,14 +439,13 @@ The following material is also distributed under [[https://creativecommons.org/l
 
 
    #+NAME:   fig:
-       [[file:../images/ch1-R1_MindMap.png]]
+       [[file:images/ch1-R1_MindMap.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
-
+      
    #+NAME:   fig:
-       [[file:../images/ch1-r1_IC.png]]
+       [[file:images/ch1-r1_IC.png]]
 
-      /[[https://drive.google.com/file/d/1gnG5Z3kkwXXZxT-zyB2CB9uZCgqAcdjE/view?usp=sharing][edit image]]/
+      
 
   
 
