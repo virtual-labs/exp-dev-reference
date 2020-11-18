@@ -1,8 +1,10 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
-* Chapter 2: Strategies and Visualisation
 
-** 2.1 Story Outline and Story:
+
+* Storyboarding Virtual Experiments: Strategies and Visualisation 
+
+** Story Outline and Story:
    Story Outline 
 
    The story outline should give a brief idea about the
@@ -105,7 +107,7 @@
      formulas and equations basically govern the entire
      experiment and should be mentioned clearly so that one
      can easily troubleshoot in case of any difficulty
-** 2.2 Flowchart
+** Flowchart
    
    Flowchart is a diagram that helps us understand a
    process. For instance if you had a robot and want to set
@@ -124,7 +126,7 @@
   steps that has to be followed and instructions must be
   provided with a proper drawing. One can draw the flowchart
   and save the flowchart as .png.
-** 2.3 Mindmap
+** Mindmap
    A mind map is a diagram used to visually organize
    information. A simple mind map can look like this: 
    
@@ -141,7 +143,7 @@
    be further connected to micro level of subtopics.
 
    For example Heat ---measured by -----> thermometer ----- can be  ----> gas thermometer. 
-** 2.4 Storyboard
+** Storyboard
    A storyboard is a graphic organizer in the form of
    illustrations or images displayed in sequence. It is used
    for the purpose of pre-visualizing a motion picture, or
