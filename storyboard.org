@@ -1,6 +1,8 @@
 #+SETUPFILE: ../org-templates/level-1.org
 
+This material has been adapted from Virtual Lab Development Guide : [[https://vlabs.iitb.ac.in][Virtual Labs IIT Bombay]] under [[https://creativecommons.org/licenses/by-sa/4.0/][CC by SA 4.0 license]].
 
+The following material is also distributed under [[https://creativecommons.org/licenses/by-sa/4.0/][CC by SA 4.0 license]].
 
 * Storyboarding Virtual Experiments: Strategies and Visualisation 
 
