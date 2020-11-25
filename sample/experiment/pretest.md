@@ -1,41 +1,43 @@
 ## <b> Pre-test
 #### Please attempt the following questions
 
-Q1.Half subtractor is used to perform subtraction of ____________<br>
+Q1.Q1. Which of these best describes an array?<br>
 
-<b>A   2 bits</b><br>
-B   3 bits<br>
-C   4 bits<br>
-D   5 bits<br><br>
-
-
-Q2.For subtracting 1 from 0, we use to take a _______ from neighbouring bits.<br>
-
-A   Carry<br>
-<b>B   Borrow</b><br>
-C   Input<br>
-D   Output<br><br>
+<b>A    A data structure that shows a hierarchical behavior </b><br>
+B  Container of objects of similar types<br>
+C   Container of objects of mixed types <br>
+D   All of the mentioned<br><br>
 
 
-Q3.How many outputs are required for the implementation of a subtractor?<br>
+Q2. What is the complexity of insertion at any point on an array?<br>
 
-A   1<br>
-<b>B   2</b><br>
-C   3<br>
-D   4<br><br>
-
-
-Q4.Let the input of a subtractor is A and B then what the output will be if A = B?<br>
-
-<b>A   0</b><br>
-B   1<br>
-C   A<br>
-D   B<br><br>
+A   O(N)<br>
+<b>B   O(N^2)</b><br>
+C   O(NLogN) <br>
+D   None of these<br><br>
 
 
-Q5.Let A and B is the input of a subtractor then the output will be ___________<br>
+Q3. What does it mean when we say that an algorithm X is asymptotically more efficient than Y? <br>
 
-<b>A   A Ex-OR B</b><br>
-B   A AND B<br>
-C   A OR B<br>
-D   A Ex-NOR B<br><br>
+A   X will always be a better choice for small inputs<br>
+<b>B    X will always be a better choice for large inputs</b><br>
+C   Y will always be a better choice for small inputs<br>
+D   X will always be a better choice for all inputs<br><br>
+
+
+Q4. int a = 0, b = 0;
+for (i = 0; i < N; i++) {
+a = a + rand();
+}
+for (j = 0; j < M; j++) {
+b = b + rand();
+}
+What is the time and space complexity for the above code?<br>
+
+<b>A   O(N * M) time, O(1) space </b><br>
+B   O(N + M) time, O(N + M) space<br>
+C   O(N + M) time, O(1) space<br>
+D   O(N * M) time, O(N + M) space<br><br>
+
+
+
