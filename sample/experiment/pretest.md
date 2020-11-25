@@ -1,7 +1,7 @@
 ## <b> Pre-test
 #### Please attempt the following questions
 
-Q1.Q1. Which of these best describes an array?<br>
+Q1.Which of these best describes an array?<br>
 
 <b>A    A data structure that shows a hierarchical behavior </b><br>
 B  Container of objects of similar types<br>

@@ -90,61 +90,59 @@
 
   const myQuestions = [
     {
-      question: "Half subtractor is used to perform subtraction of ____________",  ///// Write the question inside double quotes
+      question: "Which of these best describes an array?",  ///// Write the question inside double quotes
       answers: {
-        a: "2 bits",                  ///// Write the option 1 inside double quotes
-        b: "3 bits",                  ///// Write the option 2 inside double quotes
-        c: "4 bits",                  ///// Write the option 3 inside double quotes
-        d: "5 bits"                   ///// Write the option 4 inside double quotes
+        a: "A data structure that shows a hierarchical behavior",                  ///// Write the option 1 inside double quotes
+        b: "Container of objects of similar types",                  ///// Write the option 2 inside double quotes
+        c: "Container of objects of mixed types",                  ///// Write the option 3 inside double quotes
+        d: "All of the mentioned"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "For subtracting 1 from 0, we use to take a _______ from neighbouring bits.",  ///// Write the question inside double quotes
+     question: "What is the complexity of insertion at any point on an array?",  ///// Write the question inside double quotes
       answers: {
-        a: "Carry",                  ///// Write the option 1 inside double quotes
-        b: "Borrow",                  ///// Write the option 2 inside double quotes
-        c: "Input",                  ///// Write the option 3 inside double quotes
-        d: "Output"                   ///// Write the option 4 inside double quotes
+        a: "O(N)",                  ///// Write the option 1 inside double quotes
+        b: "O(N^2)",                  ///// Write the option 2 inside double quotes
+        c: "O(NLogN)",                  ///// Write the option 3 inside double quotes
+        d: "None of these"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     }, 
 
     {
-     question: "How many outputs are required for the implementation of a subtractor?",  ///// Write the question inside double quotes
+     question: "What does it mean when we say that an algorithm X is asymptotically more efficient than Y?",  ///// Write the question inside double quotes
       answers: {
-        a: "1",                  ///// Write the option 1 inside double quotes
-        b: "2",                  ///// Write the option 2 inside double quotes
-        c: "3",                  ///// Write the option 3 inside double quotes
-        d: "4"                   ///// Write the option 4 inside double quotes
+        a: "X will always be a better choice for small inputs",                  ///// Write the option 1 inside double quotes
+        b: "X will always be a better choice for large inputs",                  ///// Write the option 2 inside double quotes
+        c: "Y will always be a better choice for small inputs",                  ///// Write the option 3 inside double quotes
+        d: "X will always be a better choice for all inputs"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
 
     {
-     question: "Let the input of a subtractor is A and B then what the output will be if A = B?",  ///// Write the question inside double quotes
+     question: "int a = 0, b = 0;
+for (i = 0; i < N; i++) {
+a = a + rand();
+}
+for (j = 0; j < M; j++) {
+b = b + rand();
+}
+What is the time and space complexity for the above code?",  ///// Write the question inside double quotes
       answers: {
-        a: "0",                  ///// Write the option 1 inside double quotes
-        b: "1",                  ///// Write the option 2 inside double quotes
-        c: "A",                  ///// Write the option 3 inside double quotes
-        d: "B"                   ///// Write the option 4 inside double quotes
+        a: "O(N * M) time, O(1) space",                  ///// Write the option 1 inside double quotes
+        b: "O(N + M) time, O(N + M) space",                  ///// Write the option 2 inside double quotes
+        c: "O(N + M) time, O(1) space",                  ///// Write the option 3 inside double quotes
+        d: "O(N * M) time, O(N + M) space"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
 
-    {
-     question: "Let A and B is the input of a subtractor then the output will be ___________",  ///// Write the question inside double quotes
-      answers: {
-        a: "A Ex-OR B",                  ///// Write the option 1 inside double quotes
-        b: "A AND B",                  ///// Write the option 2 inside double quotes
-        c: "A OR B",                  ///// Write the option 3 inside double quotes
-        d: "A Ex-NOR B"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                 ///// To add more questions, copy the section below 
+                                    ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
