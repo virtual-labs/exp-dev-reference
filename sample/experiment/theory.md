@@ -6,7 +6,6 @@
 
 ## Prerequisites of the Experiment
 This experiment requires you to have basic knowledge about :
-
   * [The Notion of Sorting](https://en.wikipedia.org/wiki/Sorting_algorithm)
   * [Notion of Time and Space complexity](https://en.wikipedia.org/wiki/Time_complexity)
 
@@ -37,7 +36,7 @@ In this experiment, we will be able to do the following:
 ## Estimated Time
 15 hours
 ## Demonstration of Bubble Sort Concept
-<video>
+[Demo](https://www.youtube.com/embed/ph-C6sUyzE4)
 ## Learning Objectives of this Module
 In this module, we will :
 
@@ -58,7 +57,7 @@ In Bubble Sort, we take the simplest possible approach to sort an array.
    * We keep performing the above steps over the array again and again till we get the sorted form.
 
 ###  When should we swap?
-<center><img src="images/swap.png"  width="600" height="310"> <br><b>Figure-1:swap</b></p> </center>
+<center><img src="images/swap.png"  width="600" height="310"> <br></p> </center>
 
 ### Important Observations
 Let's take note of a few important observations :
@@ -67,20 +66,19 @@ Let's take note of a few important observations :
    * This is because no matter where the greatest element was, it gets swapped repeatedly to reach it's correct position. Refer to the picture below!
    * Similarly, if we do a second iteration, we will end up with the second greatest element in the second last position.
 
-Step by Step Process for One Iter
+### Step by Step Process for One Iter
 <center><img src="images/oneiteration.png"  width="600" height="310"> <br><b>Figure-2:oneiteration</b></p> </center>
 
 ## Demonstration of Bubble Sort
 ### Algorithm of Bubble Sort
-
 Let's have a final look at the consolidated algorithm to sort an array of N elements:
 
-   * STEP 1 : Compare the ith and (i+1)th element, where i=first index to i=second last index.
-   * STEP 2 : Compare the pair of adjacent elements. If ith element is greater than the (i+1)th element, swap them.
+   * STEP 1 : Compare the i^th and (i+1)^th element, where i=first index to i=second last index.
+   * STEP 2 : Compare the pair of adjacent elements. If i^th element is greater than the (i+1)^th element, swap them.
    * STEP 3 : Run steps 1 and 2 a total of N-1 times to attain the final sorted array.
 
-###Demonstration of Bubble Sort Algorithm
-<video>
+### Demonstration of Bubble Sort Algorithm
+[Demo](https://www.youtube.com/embed/aFjElrUB0Qw)
 ### Iteration by Iteration Visualization of Bubble Sort
 <center><img src="images/bubble.png"  width="600" height="310"> <br><b>Figure-6:</b></p> </center>
 ## Observations
@@ -153,15 +151,12 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
 
 ## Time and Space Complexity of Bubble Sort
 ### Running Time of Bubble Sort
-
-
 Lets assume that we are sorting N elements of a given array using SIMPLE Bubble Sort.
 
-    To complete one iteration, we traverse the array exactly once. Since we perform N-1 comparisons in an iteration, time complexity of completing one iteration is O(N).
-    In regular Bubble Sort, we run N-1 iterations, which is O(N), to sort our array. Hence overall time complexity becomes O(N*N). Note that even if array is fully sorted initially, regular Bubble Sort will take O(N^2) time to complete.
+   * To complete one iteration, we traverse the array exactly once. Since we perform N-1 comparisons in an iteration, time complexity of completing one iteration is O(N).
+   * In regular Bubble Sort, we run N-1 iterations, which is O(N), to sort our array. Hence overall time complexity becomes O(N*N). Note that even if array is fully sorted initially, regular Bubble Sort will take O(N^2) time to complete.
 
 ### Best and Worst Cases for Optimized Bubble Sort
-
 For regular Bubble Sort, time complexity will be O(N^2) in all cases. For optimized Bubble Sort :
 
   *  In best case scenario, we will have an already sorted array. We will have to run one iteration (N-1 comparisons) to determine this. Time complexity will be O(N) in this case.
@@ -176,25 +171,16 @@ While swapping two elements, we need some extra space to store temporary values.
 
 ## Stability of Bubble Sort
 ### What is a Stable Sort Algorithm?
-
-
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appeared in the input unsorted array. For example, look at the picture below. The unsorted array has two elements with value 23. Note the order of both these elements in the stable and unstable sorted arrays.
 ### Stable and Unstable Sort
 <center><img src="images/stable.png"  width="600" height="310"> <br><b>Figure-4:optimise5:stable</b></p> </center>
 ### Is Bubble Sort Stable?
-
-
-
 Yes, Bubble Sort is a stable sorting algorithm. We swap elements only when A is less than B. If A is equal to B, we do not swap them, hence relative order between equal elements will be maintained.
 Look at the picture below and keep an eye out for the ordering of 23 and 23*. Note how the original order of these elements is retained throughout the sorting process. The relative positioning of 23 and 23* does not change in the sorted output.
 ### Stability of Bubble Sort
 <center><img src="images/stablebubble.png"  width="600" height="310"> <br><b>Figure-6:stablebubble</b></p> </center>
-
 ## Comparison with other algorithms
 ### Graph : Time Complexities of Sorting Algorithms
-
 <center><img src="images/comparison.png"  width="600" height="310"> <br><b>Figure-7:comparison</b></p> </center>
-
 ### Comparison with other sorting algorithms
-
 <center><img src="images/comparison-table.png"  width="600" height="310"> <br><b>Figure-8:comparison-tabl</b></p> </center>
