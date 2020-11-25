@@ -25,12 +25,14 @@ In this experiment, we will be able to do the following:
    * Compare Bubble Sort with other sorting algorithms and realise Bubble Sort as a stable comparison sorting algorithm.
 
 ## Experiment Modules and their Weightage
-|Module |Weightage | Expectation
-|Pre-Test|10%|Solve All Questions
-|Bubble Sort|25%|Understand the Bubble Sort algorithm
-|Optimized Bubble Sort 	|25%|Understand the optimization technique
-|Analysis|25%|Understand the time and space complexity
-|Post-test|15%|Solve All Questions
+
+|Module |Weightage | Expectation|
+|--------|---------|-----------|
+|Pre-Test|10%|Solve All Questions|
+|Bubble Sort|25%|Understand the Bubble Sort algorithm|
+|Optimized Bubble Sort 	|25%|Understand the optimization technique|
+|Analysis|25%|Understand the time and space complexity|
+|Post-test|15%|Solve All Questions|
 
 # Bubble Sort Algorithm
 ## Estimated Time
