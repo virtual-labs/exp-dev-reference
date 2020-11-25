@@ -46,8 +46,6 @@ In this module, we will :
   *  Practice the algorithm
   *  Test your conceptual understanding with a short quiz
 
-
-
 ## Understanding the Bubble Sort Algorithm
 ### How can we sort an array?
 In Bubble Sort, we take the simplest possible approach to sort an array.
@@ -67,7 +65,7 @@ Let's take note of a few important observations :
    * Similarly, if we do a second iteration, we will end up with the second greatest element in the second last position.
 
 ### Step by Step Process for One Iter
-<center><img src="images/oneiteration.png"  width="600" height="310"> <br><b>Figure-2:oneiteration</b></p> </center>
+<center><img src="images/oneiteration.png"  width="600" height="310"> <br></p> </center>
 
 ## Demonstration of Bubble Sort
 ### Algorithm of Bubble Sort
@@ -81,7 +79,7 @@ Let's have a final look at the consolidated algorithm to sort an array of N elem
 [Demo](https://www.youtube.com/embed/aFjElrUB0Qw)
 ### Iteration by Iteration Visualization of Bubble Sort
 <center><img src="images/bubble.png"  width="600" height="310"> <br><b>Figure-6:</b></p> </center>
-## Observations
+### Observations
 From the above observations, we can conclude that after the T^th iteration, we will have the T^th largest element placed at its correct position. If we have N elements in a given array, we would therefore have to run N-1 iterations to place all the elements in their correct place and completely sort the array.
 
 Notice that after N-1 iterations, N-1 elements will be in their correct positions, so the one element left will automatically have no choice but to already be in its correct position as well!
@@ -89,17 +87,18 @@ Notice that after N-1 iterations, N-1 elements will be in their correct position
 Look at the picture below and work out the result of each iteration. See if it matches the picture, and notice which elements keep getting placed correctly after each iteration! 
 
 ## Bubble Demo
-<demo>
+<experiment>
 ## Step by Step Practice of Bubble Sort
-<demo>
+<experiment>
 ## Hands-on Exercise on Bubble Sort
+<experiment>
 ### Exercise : Bubble Sort
 
 ## Optimized Bubble Sort
 ### Estimated Time 
 15 minutes
 ### Demonstration of Optimized Bubble Sort Concept 
-<video>
+[Demo](https://www.youtube.com/embed/8Z2yvFHNnbk)
 ###Learning Objectives of this Module
 In this module, we will :
 
@@ -109,17 +108,14 @@ In this module, we will :
    * Test your conceptual understanding with a short quiz
 ## Optimization Technique of Bubble Sort
 ### Optimization Technique
-
-
 Now that we have seen and understood how Bubble Sort works, let's take note of a few observations :
 
-   * As we pointed out before, after the Tth iteration, the Tth largest element is placed correctly (at the Tth index from the end).
+   * As we pointed out before, after the T^th iteration, the T^th largest element is placed correctly (at the Tth index from the end).
    * Given this fact, we can say that if we're on the Tth iteration, the greatest (T-1) elements already occupy their correct places among the last (T-1) indices of the array.
    * Hence, we don't have to compare these elements again and again in subsequent iterations. Instead, in the Tth iteration, we can just compare the first (N-T+1) elements.
    * Since we are reducing the number of redundant comparisons, the running time of the algorithm will be lesser.
 
 ###When can we Stop?
-
    * In many cases, we notice that the array gets sorted much before the N iterations are completed.
    * To avoid redundant iterations, we can check whether or not our array is sorted, after each iteration. We can terminate our algorithm if the array is sorted.
    * How do we check if our array is sorted? Notice that if we run an iteration where no swaps are required, it means that all pairs of adjacent elements are correctly ordered, or in other words, the array is sorted.
@@ -128,20 +124,23 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
 
 ### Visualization of Optimized Bubble Sort
 <center><img src="images/optimise1.png"  width="600" height="310"> <br><b>Figure3:optimise1.png</b></p> </center>
-1
+
 ### When to Stop?
 <center><img src="images/optimise2.png"  width="600" height="310"> <br><b>Figure-4:optimise2.png</b></p> </center>
 ### Demonstration of Optimized Bubble Sort Technique with an Example
-<video> 
+[video](https://www.youtube.com/embed/UJvH3z_fw-4) 
 ## Demo of Optimized Bubble Sort
+<expriment>
 ## Step by Step Practice of Optimized Bubble Sort
+<expriment>
 ### Practice : Optimized Bubble Sort
+<expriment>
 ## Hands-on Exercise on Optimized Bubble Sort
 ## Analysis of Bubble Sort
 ## Estimated Time
 15 hours
 ### Analysis of Bubble Sort
-<demo>
+[demo](https://www.youtube.com/embed/4E6CIJgl42I)
 ### Learning Objectives of this Module
  In this module, we will be learning about :
 
@@ -165,7 +164,7 @@ For regular Bubble Sort, time complexity will be O(N^2) in all cases. For optimi
 Try out the demo below and look out for the number of comparisons performed for sorted, reverse sorted and randomly generated array using optimized Bubble Sort. Notice how the number of comparisons always remains between O(N) and O(N^2)!
 
 ### Time complexity of Optimized Bubble Sort
-<<demo>>
+<experiment>
 ### Space Complexity of Bubble Sort
 While swapping two elements, we need some extra space to store temporary values. Other than that, the sorting can be done in-place. Hence space complexity is O(1) or constant space.
 
@@ -173,14 +172,14 @@ While swapping two elements, we need some extra space to store temporary values.
 ### What is a Stable Sort Algorithm?
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appeared in the input unsorted array. For example, look at the picture below. The unsorted array has two elements with value 23. Note the order of both these elements in the stable and unstable sorted arrays.
 ### Stable and Unstable Sort
-<center><img src="images/stable.png"  width="600" height="310"> <br><b>Figure-4:optimise5:stable</b></p> </center>
+<center><img src="images/stable.png"  width="600" height="310"> <br></p> </center>
 ### Is Bubble Sort Stable?
 Yes, Bubble Sort is a stable sorting algorithm. We swap elements only when A is less than B. If A is equal to B, we do not swap them, hence relative order between equal elements will be maintained.
 Look at the picture below and keep an eye out for the ordering of 23 and 23*. Note how the original order of these elements is retained throughout the sorting process. The relative positioning of 23 and 23* does not change in the sorted output.
 ### Stability of Bubble Sort
-<center><img src="images/stablebubble.png"  width="600" height="310"> <br><b>Figure-6:stablebubble</b></p> </center>
+<center><img src="images/stablebubble.png"  width="600" height="310"> <br></p> </center>
 ## Comparison with other algorithms
 ### Graph : Time Complexities of Sorting Algorithms
-<center><img src="images/comparison.png"  width="600" height="310"> <br><b>Figure-7:comparison</b></p> </center>
+<center><img src="images/comparison.png"  width="600" height="310"> <br></p></center>
 ### Comparison with other sorting algorithms
-<center><img src="images/comparison-table.png"  width="600" height="310"> <br><b>Figure-8:comparison-tabl</b></p> </center>
+<center><img src="images/comparison-table.png"  width="600" height="310"> <br></p> </center>
