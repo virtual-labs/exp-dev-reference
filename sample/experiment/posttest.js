@@ -90,59 +90,61 @@
 
   const myQuestions = [
     {
-      question: "Full subtractor is used to perform subtraction of ___________",  ///// Write the question inside double quotes
+      question: "How many number of swaps needed to sort the numbers 27, 61, 82, 64, 27, 62 in non-decreasing order, using Bubble Sort?",  ///// Write the question inside double quotes
       answers: {
-        a: "2 bits",                  ///// Write the option 1 inside double quotes
-        b: "3 bits",                  ///// Write the option 2 inside double quotes
-        c: "4 bits",                  ///// Write the option 3 inside double quotes
-        d: "5 bits"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },
-
-    {
-      question: "The output of a subtractor is given by (if A, B and X are the inputs).",  ///// Write the question inside double quotes
-      answers: {
-        a: "A AND B Ex-OR X",                  ///// Write the option 1 inside double quotes
-        b: "A XOR B Ex-OR X",                  ///// Write the option 2 inside double quotes
-        c: "A OR B NOR X",                  ///// Write the option 3 inside double quotes
-        d: "A NOR B Ex-OR X"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },
-
-    {
-      question: "The output of a full subtractor is same as ____________",  ///// Write the question inside double quotes
-      answers: {
-        a: "Half adder",                  ///// Write the option 1 inside double quotes
-        b: "Full adder",                  ///// Write the option 2 inside double quotes
-        c: "Half subtractor",                  ///// Write the option 3 inside double quotes
-        d: "Decoder"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },
-
-    {
-      question: "What does minuend and subtrahend denotes in a subtractor?",  ///// Write the question inside double quotes
-      answers: {
-        a: "Their corresponding bits of input",                  ///// Write the option 1 inside double quotes
-        b: "Its outputs",                  ///// Write the option 2 inside double quotes
-        c: "Its inputs",                  ///// Write the option 3 inside double quotes
-        d: "Borrow bits"                   ///// Write the option 4 inside double quotes
+        a: "8",                  ///// Write the option 1 inside double quotes
+        b: "7",                  ///// Write the option 2 inside double quotes
+        c: "6",                  ///// Write the option 3 inside double quotes
+        d: "5"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
+    {
+      question: "What is the best case time complexity of Bubble Sort?",  ///// Write the question inside double quotes
+      answers: {
+        a: "O(N)",                  ///// Write the option 1 inside double quotes
+        b: "O(N2)",                  ///// Write the option 2 inside double quotes
+        c: "O(N3)",                  ///// Write the option 3 inside double quotes
+        d: "Cannot Determine"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
 
     {
-      question: "Let A and B is the input of a subtractor then the borrow will be ___________",  ///// Write the question inside double quotes
+      question: "How many iterations of Bubble Sort (can be slightly modified) will it take to determine if an array with N elements is "ALMOST" sorted (elements are at max one position away from their correct places)?",  ///// Write the question inside double quotes
       answers: {
-        a: "A AND B’",                  ///// Write the option 1 inside double quotes
-        b: "A’ AND B",                  ///// Write the option 2 inside double quotes
-        c: "A OR B",                  ///// Write the option 3 inside double quotes
-        d: "A AND B"                   ///// Write the option 4 inside double quotes
+        a: "1",                  ///// Write the option 1 inside double quotes
+        b: "2",                  ///// Write the option 2 inside double quotes
+        c: "N",                  ///// Write the option 3 inside double quotes
+        d: "Insufficient information"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
+
+    {
+      question: "What is the worst case scenario for Bubble Sort?",  ///// Write the question inside double quotes
+      answers: {
+        a: "Reverse sorted array",                  ///// Write the option 1 inside double quotes
+        b: "Sorted array",                  ///// Write the option 2 inside double quotes
+        c: "Smallest element in last position",                  ///// Write the option 3 inside double quotes
+        d: "Largest element in first position"                   ///// Write the option 4 inside double quotes
+        e: "a,c" ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
+
+
+    {
+      question: "Can you modify Bubble Sort to find the kth smallest element?",  ///// Write the question inside double quotes
+      answers: {
+        a: "Yes, in K iterations",                  ///// Write the option 1 inside double quotes
+        b: "Yes, in (N-K) iterations",                  ///// Write the option 2 inside double quotes
+        c: "No",                  ///// Write the option 3 inside double quotes
+        d: "Insufficient Information"                   ///// Write the option 4 inside double quotes
+        e: "a, b"                 ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
                                       ///// To add more questions, copy the section below 
