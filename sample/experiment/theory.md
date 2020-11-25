@@ -1,4 +1,4 @@
-#Bubble Sort
+# Bubble Sort
 ## Understanding the Bubble Sort Algorithm
 ### How can we sort an array?
 In Bubble Sort, we take the simplest possible approach to sort an array.
@@ -60,7 +60,7 @@ In this module, we will :
    * Understand how we can use them to optimise the algorithm
    * Practice the algorithm
    * Test your conceptual understanding with a short quiz
-##Optimization Technique of Bubble Sort
+## Optimization Technique of Bubble Sort
 ### Optimization Technique
 
 
@@ -79,12 +79,12 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
    * Hence, whenever we encounter one full iteration without any swaps, we can safely declare the array as sorted.
    * Note that given an already sorted array, we will be able to terminate our algorithm in one iteration itself.
 
-###Visualization of Optimized Bubble Sort
+### Visualization of Optimized Bubble Sort
 <image>
-###When to Stop?
+### When to Stop?
 <image>
 
-###Demonstration of Optimized Bubble Sort Technique with an Example
+### Demonstration of Optimized Bubble Sort Technique with an Example
 <video> 
 ## Demo of Optimized Bubble Sort
 ## Step by Step Practice of Optimized Bubble Sort
