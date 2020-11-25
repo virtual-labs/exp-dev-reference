@@ -54,7 +54,7 @@ In Bubble Sort, we take the simplest possible approach to sort an array.
    * Whenever we see two elements which are out of order (refer to the picture below), we swap them so that the smaller element comes before the greater element.
    * We keep performing the above steps over the array again and again till we get the sorted form.
 
-###  When should we swap?
+### When should we swap?
 <center><img src="images/swap.png"  width="600" height="310"> <br></p> </center>
 
 ### Important Observations
@@ -77,8 +77,10 @@ Let's have a final look at the consolidated algorithm to sort an array of N elem
 
 ### Demonstration of Bubble Sort Algorithm
 [Demo](https://www.youtube.com/embed/aFjElrUB0Qw)
+
 ### Iteration by Iteration Visualization of Bubble Sort
-<center><img src="images/bubble.png"  width="600" height="310"> <br><b>Figure-6:</b></p> </center>
+<center><img src="images/bubble.png"  width="600" height="310"> <br></p> </center>
+
 ### Observations
 From the above observations, we can conclude that after the T^th iteration, we will have the T^th largest element placed at its correct position. If we have N elements in a given array, we would therefore have to run N-1 iterations to place all the elements in their correct place and completely sort the array.
 
@@ -90,16 +92,20 @@ Look at the picture below and work out the result of each iteration. See if it m
 <experiment>
 ## Step by Step Practice of Bubble Sort
 <experiment>
+
 ## Hands-on Exercise on Bubble Sort
 <experiment>
+
 ### Exercise : Bubble Sort
 
 ## Optimized Bubble Sort
 ### Estimated Time 
 15 minutes
+
 ### Demonstration of Optimized Bubble Sort Concept 
 [Demo](https://www.youtube.com/embed/8Z2yvFHNnbk)
-###Learning Objectives of this Module
+
+### Learning Objectives of this Module
 In this module, we will :
 
    * Observe some characteristics of the algorithm
@@ -107,6 +113,7 @@ In this module, we will :
    * Practice the algorithm
    * Test your conceptual understanding with a short quiz
 ## Optimization Technique of Bubble Sort
+
 ### Optimization Technique
 Now that we have seen and understood how Bubble Sort works, let's take note of a few observations :
 
@@ -115,7 +122,7 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
    * Hence, we don't have to compare these elements again and again in subsequent iterations. Instead, in the Tth iteration, we can just compare the first (N-T+1) elements.
    * Since we are reducing the number of redundant comparisons, the running time of the algorithm will be lesser.
 
-###When can we Stop?
+### When can we Stop?
    * In many cases, we notice that the array gets sorted much before the N iterations are completed.
    * To avoid redundant iterations, we can check whether or not our array is sorted, after each iteration. We can terminate our algorithm if the array is sorted.
    * How do we check if our array is sorted? Notice that if we run an iteration where no swaps are required, it means that all pairs of adjacent elements are correctly ordered, or in other words, the array is sorted.
@@ -123,24 +130,32 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
    * Note that given an already sorted array, we will be able to terminate our algorithm in one iteration itself.
 
 ### Visualization of Optimized Bubble Sort
-<center><img src="images/optimise1.png"  width="600" height="310"> <br><b>Figure3:optimise1.png</b></p> </center>
+<center><img src="images/optimise1.png"  width="600" height="310"> <br></p> </center>
 
 ### When to Stop?
-<center><img src="images/optimise2.png"  width="600" height="310"> <br><b>Figure-4:optimise2.png</b></p> </center>
+<center><img src="images/optimise2.png"  width="600" height="310"> <br></p> </center>
+
 ### Demonstration of Optimized Bubble Sort Technique with an Example
 [video](https://www.youtube.com/embed/UJvH3z_fw-4) 
+
 ## Demo of Optimized Bubble Sort
 <expriment>
+
 ## Step by Step Practice of Optimized Bubble Sort
 <expriment>
+
 ### Practice : Optimized Bubble Sort
 <expriment>
 ## Hands-on Exercise on Optimized Bubble Sort
+
 ## Analysis of Bubble Sort
+
 ## Estimated Time
 15 hours
+
 ### Analysis of Bubble Sort
 [demo](https://www.youtube.com/embed/4E6CIJgl42I)
+
 ### Learning Objectives of this Module
  In this module, we will be learning about :
 
@@ -165,21 +180,29 @@ Try out the demo below and look out for the number of comparisons performed for 
 
 ### Time complexity of Optimized Bubble Sort
 <experiment>
+
 ### Space Complexity of Bubble Sort
 While swapping two elements, we need some extra space to store temporary values. Other than that, the sorting can be done in-place. Hence space complexity is O(1) or constant space.
 
 ## Stability of Bubble Sort
+
 ### What is a Stable Sort Algorithm?
 A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appeared in the input unsorted array. For example, look at the picture below. The unsorted array has two elements with value 23. Note the order of both these elements in the stable and unstable sorted arrays.
+
 ### Stable and Unstable Sort
 <center><img src="images/stable.png"  width="600" height="310"> <br></p> </center>
+
 ### Is Bubble Sort Stable?
 Yes, Bubble Sort is a stable sorting algorithm. We swap elements only when A is less than B. If A is equal to B, we do not swap them, hence relative order between equal elements will be maintained.
 Look at the picture below and keep an eye out for the ordering of 23 and 23*. Note how the original order of these elements is retained throughout the sorting process. The relative positioning of 23 and 23* does not change in the sorted output.
+
 ### Stability of Bubble Sort
 <center><img src="images/stablebubble.png"  width="600" height="310"> <br></p> </center>
+
 ## Comparison with other algorithms
+
 ### Graph : Time Complexities of Sorting Algorithms
 <center><img src="images/comparison.png"  width="600" height="310"> <br></p></center>
+
 ### Comparison with other sorting algorithms
 <center><img src="images/comparison-table.png"  width="600" height="310"> <br></p> </center>
