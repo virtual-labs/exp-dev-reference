@@ -1,1 +1,5 @@
-#### To verify the truth table of half subtractor by using the ICs of XOR, NOT and AND gates and of full subtractor by using the ICs of XOR, AND, NOT and OR gates respectively and analyse the working of half subtractor and full subtractor circuit with the help of LEDs in simulator 1 and verify the truth table only of half subtractor and full subtractor in simulator 2.
+#### Aim
+
+The aim of this experiment is to understand the Bubble Sort algorithm, its time and space complexity, and how it compares against other sorting algorithms.
+
+The experiment features a series of modules with video lectures, interactive demonstrations, simulations, hands-on practice exercises and quizzes for self analysis. 

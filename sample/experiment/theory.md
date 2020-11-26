@@ -2,7 +2,7 @@
 ## Estimated Time
 1 hour
 ## A Short Introduction to the Overall Experiment
-[Demo](https://www.youtube.com/embed/1WHzXwp5l7g)
+[Video](https://www.youtube.com/embed/1WHzXwp5l7g)
 
 ## Prerequisites of the Experiment
 This experiment requires you to have basic knowledge about :
@@ -38,7 +38,7 @@ In this experiment, we will be able to do the following:
 ## Estimated Time
 15 hours
 ## Demonstration of Bubble Sort Concept
-[Demo](https://www.youtube.com/embed/ph-C6sUyzE4)
+[Video](https://www.youtube.com/embed/ph-C6sUyzE4)
 ## Learning Objectives of this Module
 In this module, we will :
 
@@ -78,7 +78,7 @@ Let's have a final look at the consolidated algorithm to sort an array of N elem
    * STEP 3 : Run steps 1 and 2 a total of N-1 times to attain the final sorted array.
 
 ### Demonstration of Bubble Sort Algorithm
-[Demo](https://www.youtube.com/embed/aFjElrUB0Qw)
+[Video](https://www.youtube.com/embed/aFjElrUB0Qw)
 
 ### Iteration by Iteration Visualization of Bubble Sort
 <center><img src="images/bubble.png"  width="600" height="310"> <br></p> </center>
@@ -91,12 +91,12 @@ Notice that after N-1 iterations, N-1 elements will be in their correct position
 Look at the picture below and work out the result of each iteration. See if it matches the picture, and notice which elements keep getting placed correctly after each iteration! 
 
 ## Bubble Demo
-<experiment>
+[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_demo.html)
 ## Step by Step Practice of Bubble Sort
-<experiment>
+[Practice](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_practice.html)
 
 ## Hands-on Exercise on Bubble Sort
-<experiment>
+[Exercise](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_ex.html)
 
 ### Exercise : Bubble Sort
 
@@ -105,7 +105,7 @@ Look at the picture below and work out the result of each iteration. See if it m
 15 minutes
 
 ### Demonstration of Optimized Bubble Sort Concept 
-[Demo](https://www.youtube.com/embed/8Z2yvFHNnbk)
+[Video](https://www.youtube.com/embed/8Z2yvFHNnbk)
 
 ### Learning Objectives of this Module
 In this module, we will :
@@ -141,22 +141,20 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
 [video](https://www.youtube.com/embed/UJvH3z_fw-4) 
 
 ## Demo of Optimized Bubble Sort
-<expriment>
+[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_demo.html)
 
 ## Step by Step Practice of Optimized Bubble Sort
-<expriment>
+[Practice](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_practice.html)
 
-### Practice : Optimized Bubble Sort
-<expriment>
 ## Hands-on Exercise on Optimized Bubble Sort
-
+[Exercise](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_exercise.html)
 ## Analysis of Bubble Sort
 
 ## Estimated Time
 15 hours
 
 ### Analysis of Bubble Sort
-[demo](https://www.youtube.com/embed/4E6CIJgl42I)
+[Video](https://www.youtube.com/embed/4E6CIJgl42I)
 
 ### Learning Objectives of this Module
  In this module, we will be learning about :
@@ -181,7 +179,7 @@ For regular Bubble Sort, time complexity will be O(N^2) in all cases. For optimi
 Try out the demo below and look out for the number of comparisons performed for sorted, reverse sorted and randomly generated array using optimized Bubble Sort. Notice how the number of comparisons always remains between O(N) and O(N^2)!
 
 ### Time complexity of Optimized Bubble Sort
-<experiment>
+[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_time.html)
 
 ### Space Complexity of Bubble Sort
 While swapping two elements, we need some extra space to store temporary values. Other than that, the sorting can be done in-place. Hence space complexity is O(1) or constant space.
