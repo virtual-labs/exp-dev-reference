@@ -1,19 +1,19 @@
 This folder has 
 ### Aim 
-This document contains aim of the bubble sort algorithm. 
-[Aim](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/aim.md)
+This document contains [aim](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/aim.md) of the bubble sort algorithm. 
+
 ### Theory
-This document contains theory of the bubble sort algorithm. 
-[Theory](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/theory.md)
+This document contains [theory](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/theory.md) of the bubble sort algorithm. 
+
 ### Procedure
-This document contains procedure of the bubble sort algorithm simulations. 
-[Procedure](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/procedure.md)
+This document contains [procedure](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/procedure.md) of the bubble sort algorithm simulations. 
+
 ### Pre Test
-This document contains pre test of the bubble sort algorithm. 
-[Pre Test](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/pretest.js)
+This document contains [pre Test](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/pretest.js) of the bubble sort algorithm. 
+
 ### Post Test
-This document contains post test of the bubble sort algorithm. 
-[Post Test](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/posttest.js)
+This document contains [post Test](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/posttest.js) of the bubble sort algorithm. 
+
 ### References
-This document contains additional resources of the bubble sort algorithm. 
-[References](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/references.md)
+This document contains additional [references](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/references.md) of the bubble sort algorithm. 
+
