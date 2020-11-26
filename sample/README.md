@@ -5,7 +5,7 @@
 <b>Discipline | <b> Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Data Structures
-<b> Experiment|     <b> 3. Bubble Sort Algorithm
+<b> Experiment|     <b> Bubble Sort Algorithm
 
 <h5> About the Experiment : </h5> 
 This experiment is to verify the Bubble Sort, Optimized Bubble Sort and Time and Space Complexity of Bubble Sort Algorithms of Demos, Practice and Hands on Exercise to undertand Bubble sort Algorithms easily.  <br> <br>
