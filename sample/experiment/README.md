@@ -1,4 +1,3 @@
-This folder has 
 ### Aim 
 This document contains [aim](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/aim.md) of the bubble sort algorithm. 
 
