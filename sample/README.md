@@ -3,14 +3,14 @@
 
 <br>
 
-<b>Discipline | <b> Engineering
+<b>Discipline | <b> Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> Digital Electronics
-<b> Experiment|     <b> 3. To Study & Verify Half/Full Subtractor.
+<b> Lab | <b> Data Structures
+<b> Experiment|     <b> 3. Bubble Sort Algorithm
 
 <h5> About the Experiment : </h5> <br>
 
-This experiment is to verify the truth table of half subtractor by using the ICs of XOR, NOT and AND gates and of full subtractor by using the ICs of XOR, AND, NOT and OR gates respectively and analyse the working of half subtractor and full subtractor circuit with the help of LEDs in simulator 1 and verify the truth table only of half subtractor and full subtractor in simulator 2.
+This experiment is to verify the Bubble Sort, Optimized Bubble Sort and Time and Space Complexity of Bubble Sort Algorithms of Demos, Practice and Hands on Exercise to undertand Bubble sort Algorithms easily.  
 
 <b>Name of Developer | <b> Prof. Venkatesh Choppella
 :--|:--|
