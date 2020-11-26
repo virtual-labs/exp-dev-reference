@@ -1,28 +1,15 @@
-## Best Pratices 
+## Best Practices for Virtual Labs Experiment Development 
 
 ### Introduction
-  This document enlists the best pratices to be followed while developing an experiment.
-
-### Coding Standards
-  Here are the coding standards to be followed during
-  experiment development.  Coding conventions are style
-  guidelines for programming.
-
-  *They typically cover :*
-  + Naming and declaration rules for variables and functions.
-  + Rules for the use of white space, indentation, and comments.
-  + Programming practices and principles.
-
-  *Coding conventions secure quality :*
-  + Improves code readability
-  + Make code maintenance easier
+  This document lists the best pratices to be followed while developing a Virtual Lab  experiment.
 
 ### General Principles
-   1. The core imperative is to organize complexity.
-   2. Clarity and readability of code
-   3. Do not repeat yourself. Never copy-and-paste code.
-   4. Always try to leave the code you work on in a better
-      state than before you started
+   It is imperative to
+   1. Organize complexity.
+   2. Maximize clarity and readability of code.
+   3. Avoid copying-and-pasting code.
+   4. Leave the code you work on in a better
+      state than before you started.
 
 ### Keep the source clean
    1. Always delete unused code. Including variables and
@@ -33,16 +20,29 @@
       readable. Use tabs not spaces
    4. Avoid too big lines. Break it into mutiple lines for
       better readability
+      
+### Coding Standards
+  The Virtual Labs recommends Google’s coding standard for Javascript. 
+  The standard can be accessed [here](https://google.github.io/styleguide/jsguide.html). 
+  Coding conventions are style guidelines for programming.
+
+  *They typically cover :*
+  + Naming and declaration rules for variables and functions.
+  + Rules for the use of white space, indentation, and comments.
+  + Programming practices and principles.
+
+  *Coding conventions secure quality :*
+  + Improves code readability
+  + Make code maintenance easier
 
 ### HTML Coding Standards
-   1. All documents must be using the HTML5 doctype and the
-      <html> element should have a "lang" attribute. The
-      <head> should also at a minimum include "viewport" and
+   1. Use the the HTML5 doctype in all documents and make sure
+      that the <html> element has a  "lang" attribute.  Make sure 
+      that the <head> at a minimum includes "viewport" and
       "charset" meta tags.
-   2. All HTML documents must use two spaces for indentation
-      and there should be no trailing whitespace. HTML5
-      syntax must be used and all attributes must use double
-      quotes around attributes.
+   2. Use two spaces for indentation in all HTML documents
+      and ensure that there are no trailing whitespace.  Use HTML5
+      syntax and use double quotes around attributes.
    3. Document the structure properly
    4. Indent nested elements properly
    5. Use double quotes for attributes
@@ -71,8 +71,8 @@
    18. Do not use line breaks with html tags
 
 ### CSS Coding Standards
-   1. All CSS documents must use two spaces for indentation
-      and files should have no trailing white space.
+   1. Use two spaces for indentation in all CSS documents
+      and ensure that there are no trailing whitespace. 
    2. Do not declare the css rules on one line 
    3. Align the properties and values with same space
    4. Use shorthand properties wherever possible
@@ -96,46 +96,42 @@
        one declaration to make them easy to override.
 
 ## JavaScript Coding Standards
-#### Code Indentation
+### Code Indentation
    Always use 2 spaces for indentation of code blocks.
 
-#### Naming things
+#### Naming Conventions
    1. Declare variable and function names with camelCase or
-      underscore and follow the same format throughout the
-      code
-   2. The name should accurately describe what the thing
-      does
-   3. Do not use shortenings, only use well understood
-      names
-   4. If the name looks awkward, the code is probably
-      awkward
-   5. Global variables written in UPPERCASE (We don't, but
-      it's quite common)
-   6. Constants (like PI) written in UPPERCASE
+       underscore and follow the same format throughout the
+       code.
+    2. Make sure that the name accurately describes the
+       variable's need.
+    3. Do not use short forms; only use well understood
+       names.
+    4. Write global variables in UPPERCASE 
+    5. Write constants (like PI) in UPPERCASE
 
 #### Variables
    1. Declare all the variables on top
-   2. Use constants where possible. Avoid magic strings.
-   3. Use readonly where possible
-   4. Avoid global variables
-   5. Avoid many temporary variables.
-   6. Never use a single variable for two different
-      purposes.
-   7. Keep scope as narrow as possible. (declaration close
-      to use)
+    2. Use constants where possible. Avoid magic strings.
+    3. Use readonly where possible
+    4. Avoid global variables
+    5. Avoid many temporary variables.
+    6. Never use a single variable for two different
+       purposes.
+    7. Keep scope as narrow as possible. (declaration close
+       to use)
 
 #### Methods
-   1. It should only do one thing.
-   2. It should be small (more than 10 lines of code is
-      questionable).
-   3. The number of parameters should be small.
-   4. Global methods should validate all parameters.
+   1. Ensure that it is small (more than 10 lines of code is
+      questionable) and addresses only one functionality. 
+   3. Keep the number of parameters small.
+   4. Ensure that global methods validate all parameters.
    5. Assert expectations and throw an appropriate error if
       invalid.
    6. Avoid deep nesting of loops and
       conditionals. (Cyclomatic complexity).
 
-#### Seperation of data
+#### Separation of data
    Do not include data directly in code, instead have a
    configuration setup to embed
 
@@ -146,12 +142,13 @@
    2. Use one space before the opening bracket.
    3. Put the closing bracket on a new line, without
       leading spaces.  
+
 #### Object Rules
    General rules for object definitions: 
    1. Place the opening bracket on the same line as the
       object name
    2. Use colon plus one space between each property and
-     its value.
+      its value.
    3. Use quotes around string values, not around numeric
       values.
    4. Do not add a comma after the last property-value
@@ -165,12 +162,12 @@
    2. Use lowercase for filenames
    3. Don't use spaces in the filename instead use
       underscores for word seperation
-   4. Same above conventions to be followed for naming
+   4. Follow the same above conventions while naming
       images, videos etc.,
 
 
 ## Color/Themes
-It is recommended to use the colors defined below for images and simulations. </br>
+It is recommended to use the colors defined below for images and simulation. </br>
 `#98CB3B`/`rgb(152, 203, 59)`</br>
 ![#98CB3B](https://via.placeholder.com/450x55/98CB3B/000000?text=+) </br>
 `#176696`/`rgb(23, 102, 150)`</br>
@@ -183,4 +180,4 @@ It is recommended to use the colors defined below for images and simulations. </
 ![#98CB3B](https://via.placeholder.com/450x55/FFFFFF/000000?text=+)
 
 ## Fonts
-It is recommended to use the font-family : `Helvetica Neue`,`Helvetica`,`Arial`, and `sans-serif` for text in images and simulations. 
+It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,sans-serif  for text in images and simulations. 
