@@ -1,0 +1,162 @@
+<!--This document contains Virtual Labs color specifications-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Virtual Labs Color Specifications</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+      #header {
+        font-size: 230%;
+        color: #176696;
+      }
+      #vlabs-logo {
+        width: 9%;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .color {
+        width: 100%;
+        height: 40px;
+        padding: 8px;
+        border: none;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+        font-family: inherit;
+        font-size: inherit;
+        color: white;
+      cursor: pointer;
+      text-align: center;
+      }
+      .color span i{
+        padding-right: 10px;
+      }
+      .block {
+        margin-bottom: 1%;
+      }
+      .lightgreen-hex {
+        background-color: #98CB3B
+      }
+      .lightgreen-rgb {
+        background-color: rgb(152, 203, 59);
+      }
+      .skyblue-hex {
+        background-color: #2C9AD1;
+      }
+      .skyblue-rgb {
+        background-color: rgb(44, 154, 209);
+      }
+      .darkblue-hex {
+        background-color: #176696;
+      }
+      .darkblue-rgb {
+        background-color: rgb(23,102,150);
+      }
+      .grey-hex {
+        background-color: #96A0A3;
+      }
+      .grey-rgb {
+        background-color: rgb(150, 160, 163);
+      }
+      .white-hex {
+        background-color: #FFFFFF;
+        color: black;
+      }
+      .white-rgb {
+        background-color: rgb(255,255,255);
+        color: black;
+      }
+      .fa: before {
+        padding-left: 1%;
+      }
+    </style>
+    <!--Start  GOOGLE Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70677246-\                                                                          
+                               3"></script>
+	    <script>
+	      window.dataLayer = window.dataLayer || [];
+	      function gtag(){dataLayer.push(arguments);}
+	      gtag('js', new Date());
+
+	      gtag('config', 'UA-70677246-3');
+	    </script>
+	    <!--END GOOGLE Analytics -->
+	    
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <a href="https://vlabs.ac.in"><img id="vlabs-logo" src="images/vlabs-logo.png" alt="vlabs-logo"></a>
+      <h1 id="header">Virtual Labs Color Specifications</h1>
+    </div>
+
+    <div class="container-fluid">
+      <ul class="block">
+	<li>
+	  <div class="color lightgreen-hex" onclick="copyColorValue()">
+	    <span>#98CB3B</span>
+	  </div>
+	</li>
+	<li>
+	  <div class="color lightgreen-rgb" onclick="copyColorValue()">
+	    <span>rgb(152, 203, 59)</span>
+	  </div>
+	</li>
+      </ul>
+      <ul class="block">
+	<li>
+	  <div class="color darkblue-hex" onclick="copyColorValue()">
+	    <span>#176696</span>
+	  </div>
+	</li>
+	<li>
+	  <div class="color darkblue-rgb" onclick="copyColorValue()">
+	    <span>rgb(23, 102, 150)</span>
+	  </div>
+	</li>
+      </ul>
+      <ul class="block">
+	<li>
+	  <div class="color skyblue-hex" onclick="copyColorValue()">
+	    <span>#2C9AD1</span>
+          </div>
+       </li>
+       <li>
+         <div class="color skyblue-rgb" onclick="copyColorValue()">
+           <span>rgb(44, 154, 209)</span>
+         </div>
+       </li>
+      </ul>
+      <ul class="block">
+	<li>
+	  <div class="color grey-hex">
+            <span>#96A0A3</span>
+          </div>
+	</li>
+	<li>
+          <div class="color grey-rgb">
+            <span>rgb(150, 160, 163)</span>
+          </div>
+	</li>
+      </ul>
+      <ul class="block">
+	<li>
+          <div class="color white-hex">
+            <span>#FFFFFF</span>
+          </div>
+	</li>
+	<li>
+	  <div class="color white-hex">
+            <span>rgb(255, 255, 255)</span>
+          </div>
+	</li>
+     </ul>
+  </div>
+</body>
+</html>
