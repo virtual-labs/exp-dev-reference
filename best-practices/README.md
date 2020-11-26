@@ -122,11 +122,10 @@
        to use)
 
 #### Methods
-    1. It should only do one thing.
-    2. It should be small (more than 10 lines of code is
-       questionable).
-    3. The number of parameters should be small.
-    4. Global methods should validate all parameters.
+    1. Ensure that it is small (more than 10 lines of code is
+       questionable) and addresses only one functionality. 
+    3. Keep the number of parameters small.
+    4. Ensure that global methods validate all parameters.
     5. Assert expectations and throw an appropriate error if
        invalid.
     6. Avoid deep nesting of loops and
