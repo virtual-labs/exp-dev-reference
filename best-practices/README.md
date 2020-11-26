@@ -4,11 +4,12 @@
   This document lists the best pratices to be followed while developing a Virtual Lab  experiment.
 
 ### General Principles
-   1. The core imperative is to organize complexity.
-   2. Clarity and readability of code
-   3. Do not repeat yourself. Never copy-and-paste code.
-   4. Always try to leave the code you work on in a better
-      state than before you started
+   It is imperative to
+   1. Organize complexity.
+   2. Maximize clarity and readability of code.
+   3. Avoid copying-and-pasting code.
+   4. Leave the code you work on in a better
+      state than before you started.
 
 ### Keep the source clean
    1. Always delete unused code. Including variables and
@@ -35,14 +36,13 @@
   + Make code maintenance easier
 
 ### HTML Coding Standards
-   1. All documents must be using the HTML5 doctype and the
-      <html> element should have a "lang" attribute. The
-      <head> should also at a minimum include "viewport" and
+   1. Use the the HTML5 doctype in all documents and make sure
+      that the <html> element has a  "lang" attribute.  Make sure 
+      that the <head> at a minimum includes "viewport" and
       "charset" meta tags.
-   2. All HTML documents must use two spaces for indentation
-      and there should be no trailing whitespace. HTML5
-      syntax must be used and all attributes must use double
-      quotes around attributes.
+   2. Use two spaces for indentation in all HTML documents
+      and ensure that there are no trailing whitespace.  Use HTML5
+      syntax and use double quotes around attributes.
    3. Document the structure properly
    4. Indent nested elements properly
    5. Use double quotes for attributes
@@ -71,8 +71,8 @@
    18. Do not use line breaks with html tags
 
 ### CSS Coding Standards
-   1. All CSS documents must use two spaces for indentation
-      and files should have no trailing white space.
+   1. Use two spaces for indentation in all CSS documents
+      and ensure that there are no trailing whitespace. 
    2. Do not declare the css rules on one line 
    3. Align the properties and values with same space
    4. Use shorthand properties wherever possible
@@ -102,16 +102,13 @@
 #### Naming Conventions
     1. Declare variable and function names with camelCase or
        underscore and follow the same format throughout the
-       code
-    2. The name should accurately describe what the thing
-       does
-    3. Do not use shortenings, only use well understood
-       names
-    4. If the name looks awkward, the code is probably
-       awkward
-    5. Global variables written in UPPERCASE (We don't, but
-       it's quite common)
-    6. Constants (like PI) written in UPPERCASE
+       code.
+    2. Make sure that the name accurately describes the
+       variable's need.
+    3. Do not use short forms; only use well understood
+       names.
+    4. Write global variables in UPPERCASE 
+    5. Write constants (like PI) in UPPERCASE
 
 #### Variables
     1. Declare all the variables on top
@@ -166,7 +163,7 @@
    2. Use lowercase for filenames
    3. Don't use spaces in the filename instead use
       underscores for word seperation
-   4. Same above conventions to be followed for naming
+   4. Follow the same above conventions while naming
       images, videos etc.,
 
 
