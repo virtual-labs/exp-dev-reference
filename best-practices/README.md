@@ -96,70 +96,69 @@
        one declaration to make them easy to override.
 
 ## JavaScript Coding Standards
-### Code Indentation
-    Always use 2 spaces for indentation of code blocks.
+#### Code Indentation
+   Always use 2 spaces for indentation of code blocks.
 
 #### Naming things
-    1. Declare variable and function names with camelCase or
-       underscore and follow the same format throughout the
-       code
-    2. The name should accurately describe what the thing
-       does
-    3. Do not use shortenings, only use well understood
-       names
-    4. If the name looks awkward, the code is probably
-       awkward
-    5. Global variables written in UPPERCASE (We don't, but
-       it's quite common)
-    6. Constants (like PI) written in UPPERCASE
+   1. Declare variable and function names with camelCase or
+      underscore and follow the same format throughout the
+      code
+   2. The name should accurately describe what the thing
+      does
+   3. Do not use shortenings, only use well understood
+      names
+   4. If the name looks awkward, the code is probably
+      awkward
+   5. Global variables written in UPPERCASE (We don't, but
+      it's quite common)
+   6. Constants (like PI) written in UPPERCASE
 
 #### Variables
-    1. Declare all the variables on top
-    2. Use constants where possible. Avoid magic strings.
-    3. Use readonly where possible
-    4. Avoid global variables
-    5. Avoid many temporary variables.
-    6. Never use a single variable for two different
-       purposes.
-    7. Keep scope as narrow as possible. (declaration close
-       to use)
+   1. Declare all the variables on top
+   2. Use constants where possible. Avoid magic strings.
+   3. Use readonly where possible
+   4. Avoid global variables
+   5. Avoid many temporary variables.
+   6. Never use a single variable for two different
+      purposes.
+   7. Keep scope as narrow as possible. (declaration close
+      to use)
 
 #### Methods
-    1. It should only do one thing.
-    2. It should be small (more than 10 lines of code is
-       questionable).
-    3. The number of parameters should be small.
-    4. Global methods should validate all parameters.
-    5. Assert expectations and throw an appropriate error if
-       invalid.
-    6. Avoid deep nesting of loops and
-       conditionals. (Cyclomatic complexity).
+   1. It should only do one thing.
+   2. It should be small (more than 10 lines of code is
+      questionable).
+   3. The number of parameters should be small.
+   4. Global methods should validate all parameters.
+   5. Assert expectations and throw an appropriate error if
+      invalid.
+   6. Avoid deep nesting of loops and
+      conditionals. (Cyclomatic complexity).
 
 #### Seperation of data
-    Do not include data directly in code, instead have a
-    configuration setup to embed
+   Do not include data directly in code, instead have a
+   configuration setup to embed
 
 #### General rules for simple statements:
-    Always end a simple statement with a semicolon.
+   Always end a simple statement with a semicolon.
 #### General rules for complex (compound) statements
-    1. Put the opening bracket at the end of the first line.
-    2. Use one space before the opening bracket.
-    3. Put the closing bracket on a new line, without
-       leading spaces.  
-
+   1. Put the opening bracket at the end of the first line.
+   2. Use one space before the opening bracket.
+   3. Put the closing bracket on a new line, without
+      leading spaces.  
 #### Object Rules
-    General rules for object definitions: 
-    1. Place the opening bracket on the same line as the
-       object name
-    2. Use colon plus one space between each property and
-       its value.
-    3. Use quotes around string values, not around numeric
-       values.
-    4. Do not add a comma after the last property-value
-       pair.
-    5. Place the closing bracket on a new line, without
-       leading spaces.
-    6. Always end an object definition with a semicolon.
+   General rules for object definitions: 
+   1. Place the opening bracket on the same line as the
+      object name
+   2. Use colon plus one space between each property and
+     its value.
+   3. Use quotes around string values, not around numeric
+      values.
+   4. Do not add a comma after the last property-value
+      pair.
+   5. Place the closing bracket on a new line, without
+      leading spaces.
+   6. Always end an object definition with a semicolon.
 
 ### Files Naming Conventions
    1. Name a meaningful and appropriate names for files
@@ -171,7 +170,7 @@
 
 
 ## Color/Themes
-It is recommended to use the colors defined below for images and simulation. </br>
+It is recommended to use the colors defined below for images and simulations. </br>
 `#98CB3B`/`rgb(152, 203, 59)`</br>
 ![#98CB3B](https://via.placeholder.com/450x55/98CB3B/000000?text=+) </br>
 `#176696`/`rgb(23, 102, 150)`</br>
@@ -184,4 +183,4 @@ It is recommended to use the colors defined below for images and simulation. </b
 ![#98CB3B](https://via.placeholder.com/450x55/FFFFFF/000000?text=+)
 
 ## Fonts
-It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,sans-serif  for text in images and simulations. 
+It is recommended to use the font-family : `Helvetica Neue`,`Helvetica`,`Arial`, and `sans-serif` for text in images and simulations. 
