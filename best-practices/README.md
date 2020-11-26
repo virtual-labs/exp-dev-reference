@@ -97,10 +97,10 @@
 
 ## JavaScript Coding Standards
 ### Code Indentation
-    Always use 2 spaces for indentation of code blocks.
+   Always use 2 spaces for indentation of code blocks.
 
 #### Naming Conventions
-    1. Declare variable and function names with camelCase or
+   1. Declare variable and function names with camelCase or
        underscore and follow the same format throughout the
        code.
     2. Make sure that the name accurately describes the
@@ -111,7 +111,7 @@
     5. Write constants (like PI) in UPPERCASE
 
 #### Variables
-    1. Declare all the variables on top
+   1. Declare all the variables on top
     2. Use constants where possible. Avoid magic strings.
     3. Use readonly where possible
     4. Avoid global variables
@@ -122,40 +122,40 @@
        to use)
 
 #### Methods
-    1. Ensure that it is small (more than 10 lines of code is
-       questionable) and addresses only one functionality. 
-    3. Keep the number of parameters small.
-    4. Ensure that global methods validate all parameters.
-    5. Assert expectations and throw an appropriate error if
-       invalid.
-    6. Avoid deep nesting of loops and
-       conditionals. (Cyclomatic complexity).
+   1. Ensure that it is small (more than 10 lines of code is
+      questionable) and addresses only one functionality. 
+   3. Keep the number of parameters small.
+   4. Ensure that global methods validate all parameters.
+   5. Assert expectations and throw an appropriate error if
+      invalid.
+   6. Avoid deep nesting of loops and
+      conditionals. (Cyclomatic complexity).
 
 #### Separation of data
-    Do not include data directly in code, instead have a
-    configuration setup to embed
+   Do not include data directly in code, instead have a
+   configuration setup to embed
 
 #### General rules for simple statements:
-    Always end a simple statement with a semicolon.
+   Always end a simple statement with a semicolon.
 #### General rules for complex (compound) statements
-    1. Put the opening bracket at the end of the first line.
-    2. Use one space before the opening bracket.
-    3. Put the closing bracket on a new line, without
-       leading spaces.  
+   1. Put the opening bracket at the end of the first line.
+   2. Use one space before the opening bracket.
+   3. Put the closing bracket on a new line, without
+      leading spaces.  
 
 #### Object Rules
-    General rules for object definitions: 
-    1. Place the opening bracket on the same line as the
-       object name
-    2. Use colon plus one space between each property and
-       its value.
-    3. Use quotes around string values, not around numeric
-       values.
-    4. Do not add a comma after the last property-value
-       pair.
-    5. Place the closing bracket on a new line, without
-       leading spaces.
-    6. Always end an object definition with a semicolon.
+   General rules for object definitions: 
+   1. Place the opening bracket on the same line as the
+      object name
+   2. Use colon plus one space between each property and
+      its value.
+   3. Use quotes around string values, not around numeric
+      values.
+   4. Do not add a comma after the last property-value
+      pair.
+   5. Place the closing bracket on a new line, without
+      leading spaces.
+   6. Always end an object definition with a semicolon.
 
 ### Files Naming Conventions
    1. Name a meaningful and appropriate names for files
