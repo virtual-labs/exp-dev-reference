@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "Which of these best describes an array?",  ///// Write the question inside double quotes
+      question: "Q1. Which of these best describes an array?",  ///// Write the question inside double quotes
       answers: {
         a: "A data structure that shows a hierarchical behavior",                  ///// Write the option 1 inside double quotes
         b: "Container of objects of similar types",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-     question: "What is the complexity of insertion at any point on an array?",  ///// Write the question inside double quotes
+     question: "Q2. What is the complexity of insertion at any point on an array?",  ///// Write the question inside double quotes
       answers: {
         a: "O(N)",                  ///// Write the option 1 inside double quotes
         b: "O(N^2)",                  ///// Write the option 2 inside double quotes
@@ -112,7 +112,7 @@
     }, 
 
     {
-     question: "What does it mean when we say that an algorithm X is asymptotically more efficient than Y?",  ///// Write the question inside double quotes
+     question: "Q3. What does it mean when we say that an algorithm X is asymptotically more efficient than Y?",  ///// Write the question inside double quotes
       answers: {
         a: "X will always be a better choice for small inputs",                  ///// Write the option 1 inside double quotes
         b: "X will always be a better choice for large inputs",                  ///// Write the option 2 inside double quotes
@@ -124,14 +124,7 @@
 
 
     {
-     question: "int a = 0, b = 0;
-for (i = 0; i < N; i++) {
-a = a + rand();
-}
-for (j = 0; j < M; j++) {
-b = b + rand();
-}
-What is the time and space complexity for the above code?",  ///// Write the question inside double quotes
+     question: "Q4. int a = 0, b = 0; <br> for (i = 0; i < N; i++) { <br> a = a + rand(); <br> } <br> for (j = 0; j < M; j++) { <br> b = b + rand(); <br>}<br> What is the time and space complexity for the above code?",  ///// Write the question inside double quotes
       answers: {
         a: "O(N * M) time, O(1) space",                  ///// Write the option 1 inside double quotes
         b: "O(N + M) time, O(N + M) space",                  ///// Write the option 2 inside double quotes

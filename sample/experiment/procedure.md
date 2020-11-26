@@ -1,4 +1,4 @@
-##  Procedure 
+
 
 ### Demonstration of Bubble Sort
 1. Click on the Start button to start the demo.

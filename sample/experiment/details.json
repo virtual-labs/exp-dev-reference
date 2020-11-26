@@ -2,38 +2,38 @@
 
    "details": [
        {
-			"Experiment": "To Study & Verify Half and Full Subtractor",     
-			"Lab": "Digital Electronics",               
-			"Discipline": "Electronics and Communications",				 
+			"Experiment": "Bubble Sort Algorithm",     
+			"Lab": "Data Structures",               
+			"Discipline": "Computer Science and Engineering",				 
 			"Technology": "HTML, JavaScript, CSS"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "Prof. RS Anand",         
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",         
-      "InstituteAcronym": "IITR"   
+      "Developer": "Prof. Venkatesh Choppella",         
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",         
+      "InstituteAcronym": "IIITH"   
        }
    ],
 
    "contributer": [
        {       
-			"Contributer": "Jasbir Singh",             
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
+			"Contributer": "Aashna",             
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
        },
 
        {       
-			"Contributer": "Rajeev Kumar",              
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
+			"Contributer": "Dvijaywargiya",              
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
        },
 
        {       
-			"Contributer": "Priyanshi Agarwal",             
-      "Institute": "Indian Institute of Technology Roorkee, Roorkee",               
-			"InstituteAcronym": "IITR"         
+			"Contributer": "Ashwin",             
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
        }
    ]
 
