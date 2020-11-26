@@ -91,12 +91,12 @@ Notice that after N-1 iterations, N-1 elements will be in their correct position
 Look at the picture below and work out the result of each iteration. See if it matches the picture, and notice which elements keep getting placed correctly after each iteration! 
 
 ## Bubble Demo
-[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_demo.html)
+[Demo](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/bubble_demo.html)
 ## Step by Step Practice of Bubble Sort
-[Practice](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_practice.html)
+[Practice](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/bubble_practice.html)
 
 ## Hands-on Exercise on Bubble Sort
-[Exercise](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_ex.html)
+[Exercise](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/bubble_ex.html)
 
 ### Exercise : Bubble Sort
 
@@ -141,13 +141,13 @@ Now that we have seen and understood how Bubble Sort works, let's take note of a
 [video](https://www.youtube.com/embed/UJvH3z_fw-4) 
 
 ## Demo of Optimized Bubble Sort
-[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_demo.html)
+[Demo](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/optibubble_demo.html)
 
 ## Step by Step Practice of Optimized Bubble Sort
-[Practice](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_practice.html)
+[Practice](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/optibubble_practice.html)
 
 ## Hands-on Exercise on Optimized Bubble Sort
-[Exercise](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/optibubble_exercise.html)
+[Exercise](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/optibubble_exercise.html)
 ## Analysis of Bubble Sort
 
 ## Estimated Time
@@ -179,7 +179,7 @@ For regular Bubble Sort, time complexity will be O(N^2) in all cases. For optimi
 Try out the demo below and look out for the number of comparisons performed for sorted, reverse sorted and randomly generated array using optimized Bubble Sort. Notice how the number of comparisons always remains between O(N) and O(N^2)!
 
 ### Time complexity of Optimized Bubble Sort
-[Demo](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/experiment/simulation/bubble_time.html)
+[Demo](https://virtual-labs.github.io/ph3-exp-dev-process/round-template/experiment/simulation/bubble_time.html)
 
 ### Space Complexity of Bubble Sort
 While swapping two elements, we need some extra space to store temporary values. Other than that, the sorting can be done in-place. Hence space complexity is O(1) or constant space.
