@@ -1,9 +1,9 @@
-Best Pratices 
+## Best Pratices 
 
-** Introduction
+### Introduction
   This document enlists the best pratices to be followed while developing an experiment.
 
-** Coding Standards
+### Coding Standards
   Here are the coding standards to be followed during
   experiment development.  Coding conventions are style
   guidelines for programming.
@@ -17,14 +17,14 @@ Best Pratices
   + Improves code readability
   + Make code maintenance easier
 
-*** General Principles
+### General Principles
    1. The core imperative is to organize complexity.
    2. Clarity and readability of code
    3. Do not repeat yourself. Never copy-and-paste code.
    4. Always try to leave the code you work on in a better
       state than before you started
 
-*** Keep the source clean
+### Keep the source clean
    1. Always delete unused code. Including variables and
       using statements
    2. Don't comment out code, delete it. We have source
@@ -34,7 +34,7 @@ Best Pratices
    4. Avoid too big lines. Break it into mutiple lines for
       better readability
 
-*** HTML Coding Standards
+### HTML Coding Standards
    1. All documents must be using the HTML5 doctype and the
       <html> element should have a "lang" attribute. The
       <head> should also at a minimum include "viewport" and
@@ -70,7 +70,7 @@ Best Pratices
    17. Do not use special characters ("<", "=" etc.,)
    18. Do not use line breaks with html tags
 
-*** CSS Coding Standards
+### CSS Coding Standards
    1. All CSS documents must use two spaces for indentation
       and files should have no trailing white space.
    2. Do not declare the css rules on one line 
@@ -95,11 +95,11 @@ Best Pratices
        where possible and avoid having too many selectors in
        one declaration to make them easy to override.
 
-** JavaScript Coding Standards
-*** Code Indentation
+## JavaScript Coding Standards
+### Code Indentation
     Always use 2 spaces for indentation of code blocks.
 
-*** Naming things
+#### Naming things
     1. Declare variable and function names with camelCase or
        underscore and follow the same format throughout the
        code
@@ -113,7 +113,7 @@ Best Pratices
        it's quite common)
     6. Constants (like PI) written in UPPERCASE
 
-*** Variables
+#### Variables
     1. Declare all the variables on top
     2. Use constants where possible. Avoid magic strings.
     3. Use readonly where possible
@@ -124,7 +124,7 @@ Best Pratices
     7. Keep scope as narrow as possible. (declaration close
        to use)
 
-*** Methods
+#### Methods
     1. It should only do one thing.
     2. It should be small (more than 10 lines of code is
        questionable).
@@ -135,20 +135,19 @@ Best Pratices
     6. Avoid deep nesting of loops and
        conditionals. (Cyclomatic complexity).
 
-*** Seperation of data
+#### Seperation of data
     Do not include data directly in code, instead have a
     configuration setup to embed
 
-*** General rules for simple statements:
+#### General rules for simple statements:
     Always end a simple statement with a semicolon.
-
-*** General rules for complex (compound) statements
+#### General rules for complex (compound) statements
     1. Put the opening bracket at the end of the first line.
     2. Use one space before the opening bracket.
     3. Put the closing bracket on a new line, without
        leading spaces.  
 
-*** Object Rules
+#### Object Rules
     General rules for object definitions: 
     1. Place the opening bracket on the same line as the
        object name
@@ -162,7 +161,7 @@ Best Pratices
        leading spaces.
     6. Always end an object definition with a semicolon.
 
-** Files Naming Conventions
+### Files Naming Conventions
    1. Name a meaningful and appropriate names for files
    2. Use lowercase for filenames
    3. Don't use spaces in the filename instead use
@@ -171,9 +170,18 @@ Best Pratices
       images, videos etc.,
 
 
-** Color/Themes
-It is recommended to use the colors defined below for images and simulation.
-`#ffffff`
+## Color/Themes
+It is recommended to use the colors defined below for images and simulation. </br>
+`#98CB3B`/`rgb(152, 203, 59)`</br>
+![#98CB3B](https://via.placeholder.com/450x55/98CB3B/000000?text=+) </br>
+`#176696`/`rgb(23, 102, 150)`</br>
+![#176696](https://via.placeholder.com/450x55/176696/000000?text=+) </br>
+`#2C9AD1`/`rgb(44, 154, 209)`</br>
+![#98CB3B](https://via.placeholder.com/450x55/2C9AD1/000000?text=+) </br>
+`#96A0A3`/`rgb(150, 160, 163)`</br>
+![#98CB3B](https://via.placeholder.com/450x55/96A0A3/000000?text=+) </br>
+`#FFFFFF`/`rgb(255, 255, 255)` `White`</br>
+![#98CB3B](https://via.placeholder.com/450x55/FFFFFF/000000?text=+)
 
-** Fonts
-It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,sans-serif  for text in images and simulation. 
+## Fonts
+It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,sans-serif  for text in images and simulations. 
