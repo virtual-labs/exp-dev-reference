@@ -49,15 +49,15 @@ The following subsections list the steps to download and install VirtualBoxbased
 
 2. Download RPM package with the below command:
 
- Wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+   Wget http://download.virtualbox.org/virtualbox/5.1.6/VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
 
 3. Install VirtualBox with the below command:
 
- sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
+   sudo rpm -i VirtualBox-5.1-5.1.6_110634_el6-1.x86_64.rpm
 
 4. To ensure VirtualBox installation Type the below command: in the terminal:
 
-Virtualbox -V
+   Virtualbox -V
 
 5. Steps to import custom Ubuntu Image
 ### Installation steps for Ubuntu
@@ -65,13 +65,13 @@ Virtualbox -V
 
 2. Type below command to download VirtualBox:
 
- wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
+   wget http://download.virtualbox.org/virtualbox/5.2.0/virtualbox-5.2_5.2.0-118431~Ubuntu~trusty_amd64.deb
 
 3. Install VirtualBox with the below command:
 
-sudo dpkg -i 
+   sudo dpkg -i 
 
-virtualbox-5.2_5.2.0-1a18431~Ubuntu~trusty_amd64.deb
+   virtualbox-5.2_5.2.0-1a18431~Ubuntu~trusty_amd64.deb
 
 4. To ensure VirtualBox installation Type the below command: in the terminal:
 
