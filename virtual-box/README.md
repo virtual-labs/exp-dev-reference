@@ -17,13 +17,13 @@ The motivation of this document is to detail  the steps to download and  run the
 3. Processor : Any recent Intel or AMD processor.
 ## Downloading and Installing VirtualBox in your OS
 The following subsections list the steps to download and install VirtualBoxbased on the operating system of your machine - 
-  1. Installation steps for Windows
+  1. [Installation steps for Windows](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-windows).
 
-  2. Installation steps for CentOS.
+  2. [Installation steps for CentOS](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-centos).
 
-  3. Installation steps for Ubuntu.
+  3. [Installation steps for Ubuntu](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-ubuntu).
 
-  4. Installation steps for Mac OS.
+  4. [Installation steps for Mac OS](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-mac-os).
 
 ### Installation steps for Windows
  1. Download VirtualBox from the [link](https://www.virtualbox.org/wiki/Downloads). 
