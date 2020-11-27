@@ -3,13 +3,13 @@
 
 
 <br>
-<b> Experiment : 	To Study & Verify Half/Full Subtractor. <a name="top"></a> <br>
+<b> Experiment : 	To Study & Verify Bubble Sort Algorithm. <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b> Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Data Structures 1
-<b> Experiment|     <b> 3. 	Bubble Sort: algorithm and complexity
+<b> Experiment|     <b> Bubble Sort: algorithm and complexity
 
 
 <h4> [1. Focus Area](#LO)
@@ -21,9 +21,9 @@
 
 <a name="LO"></a>
 #### 1. Focus Area :
-Sr. No |	Focus Area	|
-:--|:--|:--|:-:
-1.| Experimentation| 
+|Sr. No |	Focus Area	|
+|:--    |:--| 
+|1.| Experimentation| 
 
 
 #### 2. Learning Objectives and Cognitive Level
