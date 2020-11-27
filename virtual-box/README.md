@@ -43,7 +43,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
  7. After installation, ensure that a VirtualBox icon is created on the desktop.
 
- 8. Steps to import custom Ubuntu Image.
+ 8. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for CentOS
 1. Open Terminal (ctrl+alt+t).
 
@@ -59,7 +59,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
    Virtualbox -V
 
-5. Steps to import custom Ubuntu Image
+5. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for Ubuntu
 1. Open Terminal (ctrl+alt+t).
 
@@ -77,7 +77,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
    Virtualbox -V
 
-5. Steps to import custom Ubuntu Image.
+5. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for Mac OS
 1. Download VirtualBox from the [link](https://www.virtualbox.org/wiki/Downloads) and click on OS X hosts and save the file.
 
@@ -85,7 +85,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
 3. Follow the instructions and install it.
 
-4. Steps to import custom Ubuntu Image.
+4. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
 
 ## Importing Virtual Labs OS Image to VirtualBox
 Steps to import Ubuntu ( .ova file )in VirtualBox :
