@@ -120,3 +120,91 @@ The Virtual Labs Reviewing Committee reviews the storyboard document and, if nee
 All communications regarding the suggestions, requests or clarifications are part of the raised issue in the form of comments.
 Once the committee is satisfied with the storyboard, they label the request issue as <b>Approved</b>.
 After the experiment storyboard is approved, the experiment development commences.
+
+## Experiment Development
+
+The experiment developer starts experiment development. The developer needs to develop the experiment, test it locally, check the source code into the experiment repository and merge the source code to the main branch of the repository.
+The experiment developer can either start the development on the dev branch or create a custom branch for development. During development, the developer unit tests the code. Once the code passes unit testing, the developer raises a merge request to merge the dev branch to the testing branch.
+
+Each merge to the testing branch automatically deploys the experiment to the testing url. A sample experiment code base can be found [here](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment) and the same experiment deployed on a testing url can be found [here](https://virtual-labs.github.io/ph3-exp-dev-process/). The developer receives an email about the success/failure of the deployment on the email id associated with the github handle provided in the lab proposal. The developer then starts testing the experiment end-to-end.
+After the experiment passes the end-to-end testing, the experiment needs to be reviewed and approved. The developer raises an [issue](https://github.com/virtual-labs/ph3-exp-template/issues/new?assignees=&labels=request+for+review&template=experiment--review-request.md&title=) of type Experiment Review Request on the experiment repository and fills up the link to the testing url in the issue.
+
+## Basic requirements for the Experiments
+
+There are certain basic technical requirements that all experiments must follow in order to maintain consistency across the complete ecosystem. Primary of these requirements are:
+1. All experiments must work on https
+2. All experiments must follow responsive design principles
+3. All experiments should be static, without any server side components (exceptions available on merits)
+4. Average load size of all page on the experiment (including the loaded 3rd party libraries) should be below 5MB with no single page with load size of more than   10MB (exceptions available on merits)
+5. The average load time for all pages on the experiment should be below 1.5 seconds with no single page with load time more than 3 seconds on a fast 3G  connection (exceptions available on merits)
+
+## Experiment Review
+
+The Virtual Labs Reviewing Committee reviews the experiment for its adherence to the proposal and guidelines and, if needed, suggests certain alterations or requests extra information.
+All communications regarding the suggestions, requests or clarifications are part of the raised issue in the form of comments.
+Once the committee is satisfied with the proposal, they label the request issue  as <b>Approved</b>.
+
+## Experiment Hosting Preparation 
+
+After the experiment is approved, the developer merges the testing branch to the main branch of the experiment repository. The developer also creates a tag on the main branch. This tag is used in the hosting request to uniquely identify the code to be hosted. Ater the code is merged to the main branch and the tag is created, the experiment is ready for public availability.
+
+## Lab/Experiment Hosting and Publishing
+
+After the development and approval of all the experiments listed in the proposal, which constitute the lab, is completed and the developer is ready to publish the experiments to their target audience, they raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=lab-experiment-s--hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) of type Lab/Experiment Hosting Request on the Engineers’ Forum repository. A hosting request is in the form of a github issue containing the following information for each experiment in the lab :
+1. Experiment Name
+2. Experiment Repository URL
+3. Tag to be hosted </br>
+Along with the above details for each experiment, the issue should contain the following information and documents about the lab as a whole: </br>
+4. Contact Person details
+  a. Github handle of the developer 
+5.Approved Proposal as an attachment
+
+The Virtual Labs hosting team picks up the source code from the tag in the experiment repository and builds all experiments with the common Virtual Labs UI. The hosting team also builds the lab as a container for all the experiments. The hosting team, then deploys the lab and all experiments to the centrally managed cloud. Once the deployment process is complete, the experiments are ready to be used by the target audience. A detailed description of the hosting process can be found [here](https://github.com/virtual-labs/engineers-forum/blob/master/hosting-process.org).
+
+## Lab/Experiment Evaluation and Analytics
+
+Virtual Labs collects basic analytics for all the experiments hosted on the central cloud. The most common parameters collected for analytics are:
+1. Number of PageViews
+2. Number of Users
+3. Geographic location of users
+4. Browsers used by the users to access the experiments
+5. Device types used by the users to access the experiments
+
+The experiment developer can access these parameters and can evaluate the performance of their experiments on the basis of their predefined performance criteria.
+
+## Experiment Update/Upgrade
+
+The analysis of the evaluation data or bug reports filed by end users or other stakeholders may necessitate or suggest the experiment being updated or upgraded. In this way, the experiment developer stays involved with the experiment through its complete lifecycle.
+Each time the experiment is updated, a new hosting request has to be raised in order to rehost the experiment. Each new hosting request must have a unique tag in order to uniquely identify the source code deployed for that hosting request.
+
+## Experiment Archival
+
+The experiment lifecycle concludes in the archival of the experiment. The archival can be requested by the experiment developer or necessitated due to technological issues or other concerns.
+
+## Best Practices
+
+### Coding Standards 
+
+The Virtual Labs recommends Google’s coding standard for Javascript. The standard can be accessed [here](https://google.github.io/styleguide/jsguide.html). In addition to this, a few things like colour/font theme to be kept in mind while developing the experiments  are shared [here](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/best-practices/README.md).
+
+### Testing Guidelines
+
+The Virtual Labs experiments are static sites. They do not have any server side components. This means that only the UI components need to be tested. The Virtual Labs framework creates a large part of the experiment UI, which the developer does not need to test. The developer is responsible for testing the simulation on both the functionality and UI aspects.
+The Virtual Labs team strongly advises the developers to have automated testing set-up. The following framework can be used for writing unit test cases:
+1. Jest (For functionality and as the test harness)
+</br> For end-to-end testing one of the following frameworks can be used:
+2. Cypress
+3. Selenium
+
+Apart from the functionality testing, the developer also has to ensure that the experiments meet the requirements like responsiveness, size and performance listed earlier. For testing the size and performance of the experiment, the Virtual Labs suggest the following tool:
+
+[Webpagetest](https://www.webpagetest.org/)
+All of the above frameworks are just general recommendations. The developers are free to choose any framework based on their familiarity and fitness for the task.
+
+### Security Guidelines 
+
+The developer has to ensure that all the experiments work strictly on https. The Virtual Labs will not support any experiments over http going forward.
+
+## Conclusion
+
+The Virtual Labs Experiment Development Process defines in detail all the steps that an experiment developer needs to follow in order to make their experiments become part of the Virtual Labs e-learning platform.
