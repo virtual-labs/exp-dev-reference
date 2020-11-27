@@ -75,7 +75,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
 4. To ensure VirtualBox installation Type the below command: in the terminal:
 
-Virtualbox -V
+   Virtualbox -V
 
 5. Steps to import custom Ubuntu Image.
 ### Installation steps for Mac OS
