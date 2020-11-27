@@ -86,7 +86,7 @@ The initial structure and hierarchy of each default branch of the experiment rep
 
 ## 4. Experiment Pedagogy Submission
 
-After the creation of the experiment repositories, the experiment developer updates the README.md of the repository with details of the experiment, developing institute and development team. The experiment developer then fills the experiment pedagogy document by updating the experiment pedagogy template in the experiment repository. The template also contains links to reference and sample documents. Following set of information needs to be provided in the pedagogy document:
+After the creation of the experiment repositories, the experiment developer updates the README.md of the repository with details of the experiment, developing institute and development team. The experiment developer then fills the experiment pedagogy document by updating the experiment pedagogy template in the experiment repository. The template also contains links to [reference](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/pedagogy) and [sample](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/pedagogy) documents. Following set of information needs to be provided in the pedagogy document:
 
 1. Experiment Details </br>
   a. Experiment Name </br>
@@ -108,7 +108,7 @@ Once the committee is satisfied with the proposal, they label the request issue 
 
 ## 6. Experiment Storyboard Submission
 
-After the approval of the experiment pedagogy, the developer submits the experiment storyboard by updating the experiment storyboard template in the experiment repository. The template also contains links to reference and sample documents. 
+After the approval of the experiment pedagogy, the developer submits the experiment storyboard by updating the experiment storyboard template in the experiment repository. The template also contains links to [reference](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/storyboard) and [sample](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/storyboard/README.md) documents. 
 Following set of information needs to be provided in the storyboard:
 1. Simulation Story
 2. Simulation flowchart
