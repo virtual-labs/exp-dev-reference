@@ -199,9 +199,8 @@ The Virtual Labs team strongly advises the developers to have automated testing 
 2. Cypress
 3. Selenium
 
-Apart from the functionality testing, the developer also has to ensure that the experiments meet the requirements like responsiveness, size and performance listed earlier. For testing the size and performance of the experiment, the Virtual Labs suggest the following tool:
+Apart from the functionality testing, the developer also has to ensure that the experiments meet the requirements like responsiveness, size and performance listed earlier. For testing the size and performance of the experiment, the Virtual Labs suggest the following tool: [Webpagetest](https://www.webpagetest.org/).
 
-[Webpagetest](https://www.webpagetest.org/)
 All of the above frameworks are just general recommendations. The developers are free to choose any framework based on their familiarity and fitness for the task.
 
 ### Security Guidelines 
