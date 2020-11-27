@@ -5,20 +5,20 @@ The environmental and social changes brought about by the Corona pandemic have p
 ## Experiment Lifecycle
 
 Virtual Lab follows a well defined experiment development process. An experiment goes through the complete lifecycle from conceptualization to archival. The lifecycle of an experiment consists of the following events:
-1. Expression of Interest & Proposal Submission
-2. Proposal Review
-3. Experiment Repositories Creation 
-4. Experiment Pedagogy Submission
-5. Experiment Pedagogy Review
-6. Experiment Storyboard Submission
-7. Experiment Storyboard Review
-8. Experiment Development
-9. Experiment Review 
-10. Experiment Hosting Preparation 
-11. Lab/Experiment Hosting and Publishing
-12. Lab/Experiment Evaluation and Analytics
-13. Experiment Update/Upgrade
-14. Experiment Archival
+1. [Expression of Interest & Proposal Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#1-expression-of-interest)
+2. [Proposal Review](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#2-proposal-review)
+3. [Experiment Repositories Creation ](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#3-experiment-repositories-creation)
+4. [Experiment Pedagogy Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#4-experiment-pedagogy-submission)
+5. [Experiment Pedagogy Review](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#5-experiment-pedagogy-review)
+6. [Experiment Storyboard Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#6-experiment-storyboard-submission)
+7. [Experiment Storyboard Review](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#7-experiment-storyboard-review)
+8. [Experiment Development](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#8-experiment-development)
+9. [Experiment Review](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#9-experiment-review)
+10. [Experiment Hosting Preparation](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#10-experiment-hosting-preparation)
+11. [Lab/Experiment Hosting and Publishing](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#11-labexperiment-hosting-and-publishing)
+12. [Lab/Experiment Evaluation and Analytics](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#12-labexperiment-evaluation-and-analytics)
+13. [Experiment Update/Upgrade](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#13-experiment-updateupgrade)
+14. [Experiment Archival](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#14-experiment-archival)
 
 ## 1. Expression of Interest
 
