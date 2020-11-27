@@ -29,10 +29,10 @@
 #### 2. Learning Objectives and Cognitive Level
 
 
-Sr. No |	Learning Objective	| Cognitive Level | Action Verb
+Sr. No |	Learning Objective	| Cognitive Level | Action Verb|
 :--|:--|:--|:-:
-1.| 145| Students will be able to demonstrate the distinction between Bubble Sort and the other sorting algorithms by listing out the differences| Recall | 
-2.| 146 | Students will be able to sort an unsorted array of numbers by applying the algorithm | Apply | 
+1.| 145| Students will be able to demonstrate the distinction between Bubble Sort and the other sorting algorithms by listing out the differences| Recall | List|
+2.| 146 | Students will be able to sort an unsorted array of numbers by applying the algorithm | Apply | Apply|
 3.| 147 |Students will be able to demonstrate knowledge of time complexity and hence prove that the time complexity for the given algorithm is O(n*n)
  | Understand | Explain |
 
