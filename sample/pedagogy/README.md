@@ -68,17 +68,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 <a name="SI"></a>
 
-#### 4. Simulator Interactions:
-<br>
-
-Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
-:--|:--|:--|:--:
-1.| Choose a subtractor. <br> | Display the simulator window for particular simulator.<br> |To perform experiment on a particular subtractor. 
-2.| Enter the Binary inputs and corresponding outputs according to his Knowledge and then click on Check.| <br>Input and Output will be added to input with corresponding remarks.<br> | To check the knowledge of operration of subtractor.
-3.| Click on “Circuit” Button. <br>|Display Circuit corresponding to the particular subtractor.<br> | To verify truth table with the help of circuit diagram.
-4.| Click on “Reset” button<br>| Clear all the input and Output Fields.<br> |To provide space for further entries.
-
-#### Simulator Interactions
+#### 4. Simulator Interactions
 
  
 |SNo.| What student will do | What simulator will do  | Purpose|
@@ -91,8 +81,8 @@ LU1 - D (Learning Unit 1 - Demo)
 |5. | Click the “Next” button. | Move forward with the execution. | To resume the execution after paused, or to quickly go through all the steps of the execution.|
 |6. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the execution of the demo model and to observe the execution on a new array set.|
 |7. | Observe the “Comments” box | Display the total number of comparisons and swaps performed and display “The sort is Complete” once the array is sorted. | To be aware of the total number of comparisons and swaps that have taken place till that point in the execution.|
-|LU1 - P (Learning Unit 1 - Practice)|
-
+LU1 - P (Learning Unit 1 - Practice)
+|:---|:---------------------|:------------------------|:-------|
 |1. Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the  functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.|
 |2. | Compare the first two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.|
 |3. | Compare two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.|
