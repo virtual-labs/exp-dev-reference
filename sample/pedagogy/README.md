@@ -91,55 +91,47 @@ LU1 - D (Learning Unit 1 - Demo)
 |5. | Click the “Next” button. | Move forward with the execution. | To resume the execution after paused, or to quickly go through all the steps of the execution.|
 |6. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the execution of the demo model and to observe the execution on a new array set.|
 |7. | Observe the “Comments” box | Display the total number of comparisons and swaps performed and display “The sort is Complete” once the array is sorted. | To be aware of the total number of comparisons and swaps that have taken place till that point in the execution.|
+|LU1 - P (Learning Unit 1 - Practice)|
 
-LU1 - P (Learning Unit 1 - Practice)
-
-1. Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the  functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.
-2. | Compare the first two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.
-3. | Compare two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.
-4. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the practice with the current array and move on for practice with a new array. 
-5. | Observe the “Comments” box. | Display the corresponding comments for each move performed by the user. | To check if the the move performed was correct or not.
-
-LU1 - E (Learning Unit 1 - Exercise)
-1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the 
-functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.
-2. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.
-3. | Click the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.
-4. | Click the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.
-5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves. 
-6. | Click the “Submit” button. | Evaluate the array and display in the comments box if it is sorted or not. | To check if the user has 
-understood the concept clearly and has got the right solution in the exercise problem. 
-7. Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move
-on for practice with a new array.
-8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop 
-iterating and if the result submitted is a sorted array or not.
-LU2 - D (Learning Unit 2 - Demo)
-1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a movable bar which is labelled as “Min.Speed” and “Max.Speed” on both ends and a “Comments” box below. | To see the buttons and 
-understand their purpose from their labels to help perform Optimized Bubble Sort.
-2. | Move the speed bar according to convenience. | Set the speed of the execution of the demo model according to the speed bar. | To adjust the speed of the execution of the demo unit. 
-3. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.
-4. | Click the “Pause” button. | Pause the execution at that very instant. | To pause the execution of the demo model.
-5. | Click the “Next” button. | Move forward with the execution. | To resume the execution after paused, or to quickly go through all the steps of 
-the execution. 
-6. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the execution of the demo model and to observe the execution on a new array set.
-7. | Observe the “Comments” box | Display the total number of comparisons and swaps performed and display “The sort is Complete” once the array is sorted. | To be aware of the total number of comparisons and swaps that have taken place till that point in the execution.
-LU2 - P (Learning Unit 2 - Practice)
-1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.
-2. | Compare the first two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.
-3. | Compare two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.
-4. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the practice with the current array and move on for practice with a new array.
-5. | Observe the “Comments” box. | Display the corresponding comments for each move performed by the user. | To check if the the move performed was correct or not according to Optimized Bubble Sort algorithm.
-LU2- E (Learning Unit 2 - Exercise)
-1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.
-2. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.
-3. | Click the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.
-4. | Click the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions
-5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves.
-6. | Click the “Submit” button | Evaluate the array and display in the comments box if it is sorted or not.|To check if the user has 
-understood the concept clearly and has got the right solution in the exercise problem.
-7. | Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.
-8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop 
-iterating and if the result submitted is a sorted array  or not, with respect to the Optimized Bubble Sort algorithm.
+|1. Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the  functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.|
+|2. | Compare the first two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.|
+|3. | Compare two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.|
+|4. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the practice with the current array and move on for practice with a new array. |
+|5. | Observe the “Comments” box. | Display the corresponding comments for each move performed by the user. | To check if the the move performed was correct or not.|
+|LU1 - E (Learning Unit 1 - Exercise)|
+|1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the 
+functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.|
+|2. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.|
+|3. | Click the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.|
+|4. | Click the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.|
+|5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves. 
+|6. | Click the “Submit” button. | Evaluate the array and display in the comments box if it is sorted or not. | To check if the user has understood the concept clearly and has got the right solution in the exercise problem. |
+|7. Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
+|8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop iterating and if the result submitted is a sorted array or not.|
+|LU2 - D (Learning Unit 2 - Demo)|
+|1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a movable bar which is labelled as “Min.Speed” and “Max.Speed” on both ends and a “Comments” box below. | To see the buttons and understand their purpose from their labels to help perform Optimized Bubble Sort.|
+|2. | Move the speed bar according to convenience. | Set the speed of the execution of the demo model according to the speed bar. | To adjust the speed of the execution of the demo unit. |
+|3. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.||
+|4. | Click the “Pause” button. | Pause the execution at that very instant. | To pause the execution of the demo model.|
+|5. | Click the “Next” button. | Move forward with the execution. | To resume the execution after paused, or to quickly go through all the steps of the execution. |
+|6. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the execution of the demo model and to observe the execution on a new array set.|
+|7. | Observe the “Comments” box | Display the total number of comparisons and swaps performed and display “The sort is Complete” once the array is sorted. | To be aware of the total number of comparisons and swaps that have taken place till that point in the execution.|
+|LU2 - P (Learning Unit 2 - Practice)|
+|1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.|
+|2. | Compare the first two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.|
+|3. | Compare two adjacent elements. If the value on the right side is smaller than the value on the left side, click on the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.|
+|4. | Click on the “Reset” button. | Reset the execution and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
+|5. | Observe the “Comments” box. | Display the corresponding comments for each move performed by the user. | To check if the the move performed was correct or not according to Optimized Bubble Sort algorithm.|
+|LU2- E (Learning Unit 2 - Exercise)|
+|1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a “Comments” box below. | To see the buttons and understand their purpose from their labels.|
+|2. | Click the “Start” button. | Start executing the demo model. | To begin the execution of the demo model.|
+|3. | Click the “Next” button. | Move marker to the next two adjacent elements. | To move on with the iteration of the array.|
+|4. | Click the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions 
+|5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves.
+|6. | Click the “Submit” button | Evaluate the array and display in the comments box if it is sorted or not.|To check if the user has understood the concept clearly and has got the right solution in the exercise problem.|
+|7. | Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
+|8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop 
+iterating and if the result submitted is a sorted array  or not, with respect to the Optimized Bubble Sort algorithm.|
 
 
 
