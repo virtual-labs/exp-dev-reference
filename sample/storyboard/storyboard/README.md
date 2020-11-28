@@ -1,7 +1,6 @@
 ### This folder contains storyboard used in the documentation.
 
-# Heading level 1 
-Storyboarding for Bubble Sort Experiment
+# Storyboarding for Bubble Sort Experiment
 
 ## 1. Story Outline: 
 The user approaches the simulator to understand the concept of the Bubble Sort algorithm. The user works on an array of unsorted numbers wherein he has the facility to click on buttons to perform the primitive actions (join/split, compare). The user clicks these buttons and studies how these primitive actions are used in order to realize the properties of the Merge sort algorithm. The user uses the exercise simulator wherein he can practice performing this experiment and verify his results.
