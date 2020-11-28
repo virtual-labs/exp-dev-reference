@@ -3,7 +3,8 @@
 The environmental and social changes brought about by the Corona pandemic have precipitated a mindset shift towards the virtual methods of learning. As a result Virtual Labs has witnessed a significant increase in the expression of interests for the development of new experiments. In the light of this increased interest, it becomes pertinent to publish the process for building and contributing new experiments to the Virtual Labs ecosystem. This document serves as a guideline for creating a new experiment from conception to deployment.
 
 ##  Audience 
-Prospective Virtual Lab and experiment developers and Institute/College Faculty members  
+The target audience for this document is the development team at CPE, IIITH and all the lab authors and owners who want to develop Virtual experiments (lab) and/or make it available on the Virtual Labs e-learning platform.
+
 
 ## Experiment Lifecycle
 
