@@ -25,7 +25,7 @@ Virtual Lab follows a well defined experiment development process. An experiment
 
 ## 1. Expression of Interest & Proposal Submission 
 
-Experiments are developed in a group. The experiment developers create a collection of related experiments, which is called a lab. The experiment development process starts with an Expression of interest for the lab. To express the interest for developing a new lab, the developer fills the expression of interest form available [here](https://docs.google.com/forms/d/e/1FAIpQLSctFus-noUJL815JG1i7RhO_cWKiryfsQ2pOhz2xVBeG0GVTQ/viewform).  A completely filled lab proposal document also needs to be attached to the form. The template of the Lab Proposal document, along with a sample proposal, is available in the form. 
+Experiments are developed in a group. The experiment developers create a collection of related experiments, which is called a lab. The experiment development process starts with an Expression of interest for the lab. To express the interest for developing a new lab, the developer fills the expression of interest form available [here](https://docs.google.com/forms/d/e/1FAIpQLSctFus-noUJL815JG1i7RhO_cWKiryfsQ2pOhz2xVBeG0GVTQ/viewform).  A completely filled lab proposal document also needs to be attached to the form. The [template](https://docs.google.com/document/d/1F1VEK0e3-rCRedkc3EkSzKxw-Mf-qoLgieyYPWhtqTo/edit?usp=sharing) of the Lab Proposal document, along with a [sample](https://docs.google.com/document/d/1F1VEK0e3-rCRedkc3EkSzKxw-Mf-qoLgieyYPWhtqTo/edit?usp=sharing) proposal, is available in the form. 
 
 ## 2. Proposal Review
 On receipt of the Expression of Interest form, the Virtual Labs team reviews the proposal and either sends out an acceptance mail or suggests improvements to the proposal. 
