@@ -2,6 +2,9 @@
 
 The environmental and social changes brought about by the Corona pandemic have precipitated a mindset shift towards the virtual methods of learning. As a result Virtual Labs has witnessed a significant increase in the expression of interests for the development of new experiments. In the light of this increased interest, it becomes pertinent to publish the process for building and contributing new experiments to the Virtual Labs ecosystem. This document serves as a guideline for creating a new experiment from conception to deployment.
 
+##  Audience 
+Prospective Virtual Lab and experiment developers and Institute/College Faculty members  
+
 ## Experiment Lifecycle
 
 Virtual Lab follows a well defined experiment development process. An experiment goes through the complete lifecycle from conceptualization to archival. The lifecycle of an experiment consists of the following events:
@@ -20,7 +23,7 @@ Virtual Lab follows a well defined experiment development process. An experiment
 13. [Experiment Update/Upgrade](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#13-experiment-updateupgrade)
 14. [Experiment Archival](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#14-experiment-archival)
 
-## 1. Expression of Interest
+## 1. Expression of Interest & Proposal Submission 
 
 Experiments are developed in a group. The experiment developers create a collection of related experiments, which is called a lab. The experiment development process starts with an Expression of interest for the lab. To express the interest for developing a new lab, the developer fills the expression of interest form available [here](https://docs.google.com/forms/d/e/1FAIpQLSctFus-noUJL815JG1i7RhO_cWKiryfsQ2pOhz2xVBeG0GVTQ/viewform).  A completely filled lab proposal document also needs to be attached to the form. The template of the Lab Proposal document, along with a sample proposal, is available in the form. 
 
