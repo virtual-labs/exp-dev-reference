@@ -118,8 +118,7 @@ LU1 - P (Learning Unit 1 - Practice)
 |5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves.
 |6. | Click the “Submit” button | Evaluate the array and display in the comments box if it is sorted or not.|To check if the user has understood the concept clearly and has got the right solution in the exercise problem.|
 |7. | Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
-|8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop 
-iterating and if the result submitted is a sorted array  or not, with respect to the Optimized Bubble Sort algorithm.|
+|8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop iterating and if the result submitted is a sorted array  or not, with respect to the Optimized Bubble Sort algorithm.|
 
 
 
