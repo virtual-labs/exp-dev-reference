@@ -94,7 +94,7 @@ LU1 - P (Learning Unit 1 - Practice)
 |4. | Click the “Swap” button. | Swap the positions of the elements in question. | To sort the elements in those two positions.|
 |5. | Click the “Undo” button. | Revert back to the position that was present before the latest move. | To provide ability to go back on already performed moves. 
 |6. | Click the “Submit” button. | Evaluate the array and display in the comments box if it is sorted or not. | To check if the user has understood the concept clearly and has got the right solution in the exercise problem. |
-|7. Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
+|7. |Click the “Reset” button. | Reset the progress and display a new array. | To stop the practice with the current array and move on for practice with a new array.|
 |8. | Observe the “Comments” box. | For each move, display the total number of iterations of the array that have taken place. | To know when to stop iterating and if the result submitted is a sorted array or not.|
 |LU2 - D (Learning Unit 2 - Demo)|
 |1. | Look at the array to be sorted and observe the buttons displayed. | Display a list of numbers (an array) and buttons to perform the functions including a movable bar which is labelled as “Min.Speed” and “Max.Speed” on both ends and a “Comments” box below. | To see the buttons and understand their purpose from their labels to help perform Optimized Bubble Sort.|
