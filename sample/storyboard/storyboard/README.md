@@ -94,13 +94,13 @@ Q5. Can you modify bubble sort to find the kth smallest element?
   3. Marks may be assigned to each question which would enable the student to calculate his performance feedback.
   4. The pre-test and the post-test take up 10 minutes each. Along with the learning modules, the total time required to perform the experiment will be about 1 hour.
 
-# 3. Flowchart:
+# 3. Flowchart: (to be added /flowchart/images)
 <center><img src="images/flowchart.png"> <br></center>
 
-# 4. MindMap:
+# 4. MindMap: (to be added /mindmap/images)
 <center><img src="images/mindmap.png"  > <br></center>
 
-# 5. Storyboard:
+# 5. Storyboard: (to be added /storyboard/images)
 <center><img src="images/exercise1.png" > <br></center>
 
 <center><img src="images/exercise2.png" > <br></center>
