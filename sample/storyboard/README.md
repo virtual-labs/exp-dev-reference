@@ -1,5 +1,3 @@
-### This folder contains storyboard used in the documentation.
-
 # Storyboarding for Bubble Sort Experiment
 
 ## 1. Story Outline: 
