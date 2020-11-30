@@ -112,8 +112,8 @@ All communications regarding the suggestions, requests or clarifications are par
 Once the committee is satisfied with the proposal, they label the request issue as <b>Approved</b>.
 
 ## 6. Experiment Storyboard Submission
-
-After the approval of the experiment pedagogy, the developer submits the experiment storyboard by updating the experiment storyboard [template](https://github.com/virtual-labs/ph3-exp-template/tree/main/storyboard)in the experiment repository. The [template](https://github.com/virtual-labs/ph3-exp-template/tree/main/storyboard) also contains links to [reference](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/storyboard) and [sample](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/storyboard/README.md) documents. 
+ 
+After the approval of the experiment pedagogy, the developer submits the experiment storyboard by updating the experiment storyboard [template](https://github.com/virtual-labs/ph3-exp-template/tree/main/storyboard) in the experiment repository. The [template](https://github.com/virtual-labs/ph3-exp-template/tree/main/storyboard) also contains links to [reference](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/storyboard) and [sample](https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/sample/storyboard/README.md) documents. 
 Following set of information needs to be provided in the storyboard:
 1. Simulation Story
 2. Simulation flowchart
