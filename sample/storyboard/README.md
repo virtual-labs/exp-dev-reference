@@ -103,6 +103,6 @@ Q5. Can you modify bubble sort to find the kth smallest element?
 ## 5. Storyboard:
 <center><img src="images/exercise1.png" > <br></center>
 
-<center><img src="exercise2.png" > <br></center>
+<center><img src="images/exercise2.png" > <br></center>
 
-<center><img src="exercise3.png" > <br></center>
+<center><img src="images/exercise3.png" > <br></center>
