@@ -1,1 +1,1 @@
-### This folder contains images used in the documentation.
+### This folder contains images used in the documentation of storyboard.

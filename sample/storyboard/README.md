@@ -1,54 +1,108 @@
-## Storyboard
+### This folder contains storyboard used in the documentation.
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
+# Storyboarding for Bubble Sort Experiment
 
-Experiment 1: Name of the Experiment
+## 1. Story Outline: 
+The user approaches the simulator to understand the concept of the Bubble Sort algorithm. The user works on an array of unsorted numbers wherein he has the facility to click on buttons to perform the primitive actions (join/split, compare). The user clicks these buttons and studies how these primitive actions are used in order to realize the properties of the Merge sort algorithm. The user uses the exercise simulator wherein he can practice performing this experiment and verify his results.
 
-### 1. Story Outline:
+## 2. Story:
+### 2.1 Set the Visual Stage Description:
+When the user lands on the simulator page, a set of three simulators options is displayed to click on – Demo, Practice and Experiment.
+Demo – Instructions regarding how to perform the demo are displayed in a box at the top. An array of unsorted numbers is displayed below along with the set of buttons Start, Reset and Pause to perform those functions. A slider too is displayed in order to adjust the speed of the execution of the demo.
+Practice - Instructions regarding how to use the practice simulator are displayed in a box at the top. An array of unsorted numbers is displayed below along with the set of buttons Next, Swap and Reset to perform those functions. A comments box is displayed below the buttons.
+Exercise - Instructions regarding how to use the exercise simulator are displayed in a box at the top along with a question to be solved. An array of unsorted numbers is displayed below along with the set of buttons Start, Next, Swap, Undo and Reset.
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+### 2.2 Set User Objectives & Goals:
+The learning objectives are framed such that the higher cognitive levels of Bloom’s taxonomy are addressed.
+| Learning Objectives  |Cognitive Level|
+|----------------------| --------------|
+| Compare Bubble Sort with other sorting algorithms and realise Bubble sort as a stable comparison sorting algorithm.  |Analyse |
+|  Students will be able to apply Bubble sort algorithm using the simulator to  sort numbers | Apply  |
 
-### 2. Story:
+### 2.3 Set the pathway activities:
+There are three types of simulators used for the Bubble Sort:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+* Demo
+* Practice
+* Exercise
 
-#### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+a) Demo:
+   1. Allow the user to click the Start button.
+   2. Allow the user to adjust the speed of the demo according to convenience.
+   3. Colour the nodes being compared.
+   4. Allow the user to pause the execution and resume.
+   5. When the user clicks the Reset button, the demo must return back to its initial state.
+   
+b) Practice:
+   1. Allow the user to click the Next and the Swap buttons according to whichever function is required.
+   2. If the Swap button is clicked, swap the two elements being compared.
+   3. When the user clicks Next, the simulator must compare the next pair of elements in the array.
+   4. Colour the nodes being compared.
+   5. Display appropriate comments for the actions performed by the user.
+   6. When the user clicks the Reset button, the execution must return back to its initial state.
 
-#### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+c) Exercise:
 
-#### 2.3 Set the Pathway Activities:
+   1. Allow the user to enter values in the ‘Difference’ and ‘Iterations’ fields according to the question given.
+   2. Allow the user to click on the Run an Iteration button to perform the function.
+   3. Colour the node being compared.
+   4. Allow the user to click Submit to check if his sort is correct.
+   5. When the user clicks the Reset button, the execution must return back to its initial state.
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+**NOTE** : For Optimized Bubble Sort, colour the already sorted nodes in the iteration grey.
 
-##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+Q1. The number of swaps needed to sort the numbers 27, 61, 82, 64, 27, 62 in non-decreasing order, using bubble sort is :
+   1. 8
+   2. 7
+   3. 6
+   4. 5
+Q2. What is the best case time complexity of bubble sort?
+   1. O(N)
+   2. O(N^2)
+   3. O(N^3)
+   4. Cannot be determined
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+Q3. How many iterations of bubble sort (can be slightly modified) will it take to determine if an array with N elements is "ALMOST" sorted (elements are at max one position away from their correct places)?
+   1. 1
+   2. 2
+   3. N
+   4. Insufficient information
 
-##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+Q4.  What is the worst case scenario for bubble sort?
+   1. Reverse sorted array
+   2. Sorted array
+   3. Smallest element in last position
+   4. Largest element in first position
+   5. A, C
 
-##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+Q5. Can you modify bubble sort to find the kth smallest element?
+  1. Yes, in K iterations
+  2. Yes, in (N-K) iterations
+  3. No
+  4. Insufficient information
+  5. A, B
 
-##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
+### 2.5 Allow pitfalls:
 
+  1. In the exercise simulator, when a user performs the wrong step according to the algorithm, the final result will not be the desired outcome.
+  2. In the exercise simulator of regular Bubble Sort, if the user clicks on the Submit button as soon as the array is sorted but before the number of required iterations are not completed, then the result will turn out to be wrong.
 
-### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
-<br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
+### 2.6 Conclusion:
+  1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the ‘Submit’   button, the CORRECT answers should be displayed below the question. This would enable the student to understand whether he is right or wrong then and there itself.
+  2. This would notify the users on how many answers were correctly answered.
+  3. Marks may be assigned to each question which would enable the student to calculate his performance feedback.
+  4. The pre-test and the post-test take up 10 minutes each. Along with the learning modules, the total time required to perform the experiment will be about 1 hour.
 
-### 4. Mindmap:
-<img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
+## 3. Flowchart: 
+<center><img src="images/flowchart/flowchart.png"> <br></center>
 
-### 5. Storyboard :
-Link the storyboard (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
+## 4. MindMap: 
+<center><img src="images/mindmap/images/mindmap-bubble-sort.png"  > <br></center>
+
+## 5. Storyboard:
+<center><img src="storyboard/images/exercise1.png" > <br></center>
+
+<center><img src="storyboardimages/exercise2.png" > <br></center>
+
+<center><img src="storyboardimages/exercise3.png" > <br></center>
