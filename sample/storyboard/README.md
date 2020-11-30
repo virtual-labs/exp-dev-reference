@@ -99,8 +99,8 @@ Q5. Can you modify bubble sort to find the kth smallest element?
 <center><img src="mindmap/mindmap-bubble-sort.png"  > <br></center>
 
 ## 5. Storyboard:
-<center><img src="images/exercise1.png" width="100%; height:100%" > <br></center>
+<center><img src="images/exercise1.png" width="50%; height:100%" > <br></center>
 
-<center><img src="images/exercise2.png" width="100%; height:100%"> <br></center>
+<center><img src="images/exercise2.png" width="50%; height:100%"> <br></center>
 
-<center><img src="images/exercise3.png" width="100%; height:100%"> <br></center>
+<center><img src="images/exercise3.png" width="50%; height:100%"> <br></center>
