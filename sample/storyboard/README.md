@@ -98,11 +98,11 @@ Q5. Can you modify bubble sort to find the kth smallest element?
 <center><img src="images/flowchart/flowchart.jpg"> <br></center>
 
 ## 4. MindMap: 
-<center><img src="images/mindmap/images/mindmap-bubble-sort.png"  > <br></center>
+<center><img src="mindmap/mindmap-bubble-sort.png"  > <br></center>
 
 ## 5. Storyboard:
-<center><img src="storyboard/images/exercise1.png" > <br></center>
+<center><img src="images/exercise1.png" > <br></center>
 
-<center><img src="storyboardimages/exercise2.png" > <br></center>
+<center><img src="images/exercise2.png" > <br></center>
 
-<center><img src="storyboardimages/exercise3.png" > <br></center>
+<center><img src="images/exercise3.png" > <br></center>
