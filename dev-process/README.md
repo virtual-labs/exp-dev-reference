@@ -9,7 +9,7 @@ The target audience for this document is the development team at CPE, IIITH and 
 ## Experiment Lifecycle
 
 Virtual Lab follows a well defined experiment development process. An experiment goes through the complete lifecycle from conceptualization to archival. The lifecycle of an experiment consists of the following events:
-1. [Expression of Interest & Proposal Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#1-expression-of-interest-proposal-submission)
+1. [Expression of Interest & Proposal Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#1-expression-of-interest--proposal-submission)
 2. [Proposal Review](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#2-proposal-review)
 3. [Experiment Repositories Creation ](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#3-experiment-repositories-creation)
 4. [Experiment Pedagogy Submission](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/dev-process#4-experiment-pedagogy-submission)
