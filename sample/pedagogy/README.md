@@ -44,7 +44,7 @@
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-|Metohd |	Assessment	| Instruction Strategy
+|Method |	Assessment	| Instruction Strategy
 |:--|:--|:--| 
 A list of numbers to be sorted is given. Students use primitive actions (compare and swap on adjacent elements) to sort the array. <br>Through this, they gain hands-on experience and knowledge on how bubble sort works. | Ask them questions like the following to test their comprehension <br>True or False: Bubble sort will take N operations to find the position of 1 element in the list of N elements. |Expository |
 
