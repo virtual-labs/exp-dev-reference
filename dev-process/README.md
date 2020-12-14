@@ -33,7 +33,7 @@ On receipt of the Expression of Interest form, the Virtual Labs team reviews the
 
 ## 3. Experiment Repositories Creation 
 
-Once the proposal is accepted by the Virtual Labs team, the developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=phase-iii-experiment-repository-creation-request.md&title=) of type Phase III Experiment Repository Creation Request on engineers-forum repository under the  virtual-labs organization on Github. The developer attaches the pdf of the approved proposal to the request issue.
+Once the proposal is accepted by the Virtual Labs team, the developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=On-Boarding%2C+Phase-3&template=phase-iii-onboarding.md&title=Phase+III+Lab%2FExperiment%28s%29+OnBoarding+Request+for+%3Cfill+your+lab+name+here%3E) of type Phase III Experiment Repository Creation Request on engineers-forum repository under the  virtual-labs organization on Github. The developer attaches the pdf of the approved proposal to the request issue.
 
 The Virtual Labs team creates a git repository for each experiment of the proposed lab. This repository is the single source of truth for the experiment. It contains all the resources and all communication related to the experiment.
 The git repository created by the Virtual Labs team contains templates along with examples for all the documents to be submitted as part of the experiment development process.
