@@ -1,12 +1,12 @@
 # VirtualBox Installation For Virtual Labs
 
-## Introduction
+## Introduction {#introduction}
 Virtual Labs is an MHRD initiative, Govt of India,  which aims at making the  experiments done in Engineering Colleges available in a Virtual form, to all the college students as an adjunct facility to the physical labs. These labs provide an opportunity to the students to perform these simulated experiments, read the theory and improve their understanding of the subject.
 
 There are 1800+ Virtual Experiments bundled in 180 + labs spread across 9 domains available for  the users of Virtual Labs. Some of these labs have software dependencies such as Java, Icedtea plugin, Adobe Flash and Java3D to run the simulations. For the convenience of the users,  Virtual Labs offers a free download of a customized VirtualBox with all software dependencies  installed. 
 
 
-##  Motivation and Audience
+##  Motivation and Audience {#motivation}
 The motivation of this document is to detail  the steps to download and  run the simulated experiments of Virtual Labs  on VirtualBox. VirtualBox is a Virtualization Software. It means that you can create and run multiple Virtual Machines, running different operating systems, on the same computer at the same time. For example, you can run Windows and Linux on your Mac, or run Windows on your Linux systems. This document is for the consumption of all the users of Virtual Labs. 
 
 ## System requirement
@@ -24,6 +24,10 @@ The following subsections list the steps to download and install VirtualBoxbased
   3. [Installation steps for Ubuntu](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-ubuntu).
 
   4. [Installation steps for Mac OS](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-mac-os).
+
+  3. [Installation steps for Ubuntu](./#installation-steps-for-ubuntu).
+
+  4. [Installation steps for Mac OS](#installation-steps-for-mac-os).
 
 ### Installation steps for Windows
  1. Download VirtualBox from the [link](https://www.virtualbox.org/wiki/Downloads). 
