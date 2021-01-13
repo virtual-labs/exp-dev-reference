@@ -34,9 +34,8 @@ The following subsections list the steps to download and install VirtualBoxbased
 
  4. Click on the Run button
 
- <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img1.png"> <br> </center>
  <center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img1.png"> <br> </center>
- <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img2.png"> <br> </center>
+ <center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img2.png"> <br> </center>
 
  5. Click on Next button and follow the instructions to complete the installation.
 
@@ -101,25 +100,25 @@ Steps to import Ubuntu ( .ova file )in VirtualBox :
 
 4. **Application to import** window will pop up.
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img3.png"> <br> </center>
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img4.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img3.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img4.png"> <br> </center>
 
 5. Browse the downloaded file by clicking on the **browse** button.
 
 6. Click on the selected file and click on **Open**.
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img5.png"> <br> </center>
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img6.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img5.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img6.png"> <br> </center>
 
 7. Click on import to start the import setup.
 
 8. Click on next to start importing the downloaded file.
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img7.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img7.png"> <br> </center>
 
 9. The importing process looks as below:
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img8.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img8.png"> <br> </center>
 
 10. This may take 5 to 10 minutes to complete the import process.
 
@@ -139,11 +138,11 @@ Select the **ubuntu-14.04-college-cloud** from the VirtualBox window and allocat
 
 * Memory/RAM size --> 2GB or 4GB according to your RAM Size.
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img9.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img9.png"> <br> </center>
 
 * Please change the network setting in your Virtualization software for the imported image from **Bridge adapter** to **Nat**.
 
-<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img10.png"> <br> </center>
+<center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img10.png"> <br> </center>
 
 * **Do not update or upgrade any application in it.**
 
