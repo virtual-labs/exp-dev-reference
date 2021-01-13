@@ -1,12 +1,12 @@
 # VirtualBox Installation For Virtual Labs
 
-## Introduction {#introduction}
+## Introduction
 Virtual Labs is an MHRD initiative, Govt of India,  which aims at making the  experiments done in Engineering Colleges available in a Virtual form, to all the college students as an adjunct facility to the physical labs. These labs provide an opportunity to the students to perform these simulated experiments, read the theory and improve their understanding of the subject.
 
 There are 1800+ Virtual Experiments bundled in 180 + labs spread across 9 domains available for  the users of Virtual Labs. Some of these labs have software dependencies such as Java, Icedtea plugin, Adobe Flash and Java3D to run the simulations. For the convenience of the users,  Virtual Labs offers a free download of a customized VirtualBox with all software dependencies  installed. 
 
 
-##  Motivation and Audience {#motivation}
+##  Motivation and Audience
 The motivation of this document is to detail  the steps to download and  run the simulated experiments of Virtual Labs  on VirtualBox. VirtualBox is a Virtualization Software. It means that you can create and run multiple Virtual Machines, running different operating systems, on the same computer at the same time. For example, you can run Windows and Linux on your Mac, or run Windows on your Linux systems. This document is for the consumption of all the users of Virtual Labs. 
 
 ## System requirement
@@ -17,15 +17,11 @@ The motivation of this document is to detail  the steps to download and  run the
 3. Processor : Any recent Intel or AMD processor.
 ## Downloading and Installing VirtualBox in your OS
 The following subsections list the steps to download and install VirtualBoxbased on the operating system of your machine - 
-  1. [Installation steps for Windows](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-windows).
+  1. [Installation steps for Windows](#installation-steps-for-windows).
 
-  2. [Installation steps for CentOS](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-centos).
+  2. [Installation steps for CentOS](#installation-steps-for-centos).
 
-  3. [Installation steps for Ubuntu](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-ubuntu).
-
-  4. [Installation steps for Mac OS](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#installation-steps-for-mac-os).
-
-  3. [Installation steps for Ubuntu](./#installation-steps-for-ubuntu).
+  3. [Installation steps for Ubuntu](#installation-steps-for-ubuntu).
 
   4. [Installation steps for Mac OS](#installation-steps-for-mac-os).
 
@@ -38,8 +34,8 @@ The following subsections list the steps to download and install VirtualBoxbased
 
  4. Click on the Run button
 
- <center><img src="images/img1.png"> <br> </center>
- <center><img src="images/img2.png"> <br> </center>
+ <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img1.png"> <br> </center>
+ <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img2.png"> <br> </center>
 
  5. Click on Next button and follow the instructions to complete the installation.
 
@@ -47,7 +43,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
  7. After installation, ensure that a VirtualBox icon is created on the desktop.
 
- 8. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
+ 8. [Steps to import custom Ubuntu Image](#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for CentOS
 1. Open Terminal (ctrl+alt+t).
 
@@ -63,7 +59,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
    Virtualbox -V
 
-5. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
+5. [Steps to import custom Ubuntu Image](#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for Ubuntu
 1. Open Terminal (ctrl+alt+t).
 
@@ -81,7 +77,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
    Virtualbox -V
 
-5. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
+5. [Steps to import custom Ubuntu Image](#importing-virtual-labs-os-image-to-virtualbox).
 ### Installation steps for Mac OS
 1. Download VirtualBox from the [link](https://www.virtualbox.org/wiki/Downloads) and click on OS X hosts and save the file.
 
@@ -89,7 +85,7 @@ The following subsections list the steps to download and install VirtualBoxbased
 
 3. Follow the instructions and install it.
 
-4. [Steps to import custom Ubuntu Image](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/virtual-box#importing-virtual-labs-os-image-to-virtualbox).
+4. [Steps to import custom Ubuntu Image](#importing-virtual-labs-os-image-to-virtualbox).
 
 ## Importing Virtual Labs OS Image to VirtualBox
 Steps to import Ubuntu ( .ova file )in VirtualBox :
@@ -104,25 +100,25 @@ Steps to import Ubuntu ( .ova file )in VirtualBox :
 
 4. **Application to import** window will pop up.
 
-<center><img src="images/img3.png"> <br> </center>
-<center><img src="images/img4.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img3.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img4.png"> <br> </center>
 
 5. Browse the downloaded file by clicking on the **browse** button.
 
 6. Click on the selected file and click on **Open**.
 
-<center><img src="images/img5.png"> <br> </center>
-<center><img src="images/img6.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img5.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img6.png"> <br> </center>
 
 7. Click on import to start the import setup.
 
 8. Click on next to start importing the downloaded file.
 
-<center><img src="images/img7.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img7.png"> <br> </center>
 
 9. The importing process looks as below:
 
-<center><img src="images/img8.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img8.png"> <br> </center>
 
 10. This may take 5 to 10 minutes to complete the import process.
 
@@ -142,11 +138,11 @@ Select the **ubuntu-14.04-college-cloud** from the VirtualBox window and allocat
 
 * Memory/RAM size --> 2GB or 4GB according to your RAM Size.
 
-<center><img src="images/img9.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img9.png"> <br> </center>
 
 * Please change the network setting in your Virtualization software for the imported image from **Bridge adapter** to **Nat**.
 
-<center><img src="images/img10.png"> <br> </center>
+<center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img10.png"> <br> </center>
 
 * **Do not update or upgrade any application in it.**
 
