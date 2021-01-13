@@ -35,6 +35,7 @@ The following subsections list the steps to download and install VirtualBoxbased
  4. Click on the Run button
 
  <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img1.png"> <br> </center>
+ <center><img src="https://raw.githubusercontent.com/virtual-labs/ph3-exp-dev-process/main/virtual-box/images/img1.png"> <br> </center>
  <center><img src="https://github.com/virtual-labs/ph3-exp-dev-process/blob/main/virtual-box/images/img2.png"> <br> </center>
 
  5. Click on Next button and follow the instructions to complete the installation.
