@@ -65,7 +65,7 @@ The initial structure and hierarchy of each default branch of the experiment rep
 │   │   │   ├── main.js
 │   │   │   └── README.md
 │   │   └── index.html
-│   ├── aim.md                                                                                                                                                     
+│   ├── aim.md
 │   ├── experiment-name.md
 │   ├── posttest.js
 │   ├── pretest.js
