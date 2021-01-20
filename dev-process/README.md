@@ -9,20 +9,20 @@ The target audience for this document is the development team at CPE, IIITH and 
 ## Experiment Lifecycle
 
 Virtual Lab follows a well defined experiment development process. An experiment goes through the complete lifecycle from conceptualization to archival. The lifecycle of an experiment consists of the following events:
-1. Expression of Interest & Proposal Submission
-2. Proposal Review
-3. Experiment Repositories Creation
-4. Experiment Pedagogy Submission
-5. Experiment Pedagogy Review
-6. Experiment Storyboard Submission
-7. Experiment Storyboard Review
-8. Experiment Development
-9. Experiment Review
-10. Experiment Hosting Preparation
-11. Lab/Experiment Hosting and Publishing
-12. Lab/Experiment Evaluation and Analytics
-13. Experiment Update/Upgrade
-14. Experiment Archival
+1. [Expression of Interest & Proposal Submission](#1-expression-of-interest--proposal-submission)
+2. [Proposal Review](#2-proposal-review)
+3. [Experiment Repositories Creation](#3-experiment-repositories-creation)
+4. [Experiment Pedagogy Submission](#4-experiment-pedagogy-submission)
+5. [Experiment Pedagogy Review](#5-experiment-pedagogy-review)
+6. [Experiment Storyboard Submission](#6-experiment-storyboard-submission)
+7. [Experiment Storyboard Review](#7-experiment-storyboard-review)
+8. [Experiment Development](#8-experiment-development)
+9. [Experiment Review](#9-experiment-review)
+10. [Experiment Hosting Preparation](#10-experiment-hosting-preparation)
+11. [Lab/Experiment Hosting and Publishing](#11-labexperiment-hosting-and-publishing)
+12. [Lab/Experiment Evaluation and Analytics](#12-labexperiment-evaluation-and-analytics)
+13. [Experiment Update/Upgrade](#13-experiment-updateupgrade)
+14. [Experiment Archival](#14-experiment-archival)
 
 ## 1. Expression of Interest & Proposal Submission 
 
