@@ -5,11 +5,24 @@
 
 ### General Principles
    It is imperative to
-   1. Organize complexity.
-   2. Maximize clarity and readability of code.
-   3. Avoid copying-and-pasting code.
-   4. Leave the code you work on in a better
-      state than before you started.
+   1. Organize complexity
+   2. Maximize clarity and readability of code
+   3. Optimize usability and performance
+   4. Review early, test frequently
+   5. Follow standards and keep the code compliant with latest standards
+   6. Use open-source libraries with large communities and active development and support
+   7. Use mature tools that are fit for the task at hand
+      
+### Architecture Style
+   1. Make the experiments into static sites
+   2. Use server-side components only when there's no alternative
+   3. Add dynamic functionality through services
+
+### Performace and Usability
+   1. Write code for mobile form-factor and expand it to work on larger screens
+   1. Performance should be a fore-thought, not an after-thought
+   1. Use light-weight, high performance libraries
+   1. Always keep the target audience in mind. Our primary users are from India with inconsistent network speeds and low-powered mobile devices
 
 ### Keep the source clean
    1. Always delete unused code. Including variables and
@@ -17,9 +30,11 @@
    2. Don't comment out code, delete it. We have source
       control to manage change
    3. Indent the code to make it look clean and
-      readable. Use tabs not spaces
+      readable.
    4. Avoid too big lines. Break it into mutiple lines for
       better readability
+   5. Keep functions small and focused on a single task.
+   6. Refactor repeated code into separate functions so you do not repeat yourself.
       
 ### Coding Standards
   The Virtual Labs recommends Google’s coding standard for Javascript. 
@@ -57,18 +72,17 @@
    11. Do not include styles in html as inline or internal
        css instead use external stylesheets for each feature
        to make the html and css clean and maintainable.
-   12. Insert external JavaScript files at the bottom of the
-       body tag and external Style Sheets in the head tag
+   12. Prefer SASS(scss) over CSS for properly nested, easy to read code.
+   13. Insert non-essential external JavaScript files at the bottom of the
+       body tag and essential external Javascript and external Style Sheets in the head tag
        for for better performance
-   13. Order the external files in a correct order to avoid
+   14. Order the external files in a correct order to avoid
        errors
-   14. Do not include a direct server link of a external
-       frameworks like(Jquery, D3 etc.,). Download and
-       include it.
-   15. Do not use deprecated html tags (center etc.,)
-   16. Do not use break tags for spacing
-   17. Do not use special characters ("<", "=" etc.,)
-   18. Do not use line breaks with html tags
+   15. Evaluate performance of CDNs for common libraries like Bootstrap, JQuery etc. Sometimes downloading them and linking from your own server is faster because many CDNs do not have servers in India.
+   16. Strictly use HTML5 tags. With HTML5, html has moved to completely being a markup for explaining the structure of a document(semantic markup vs presentational markup). CSS is used for styling. All HTML tags used for styling are 'not recommended' in HTML5
+   17. Do not use <br> for vertical spacing. Use css classes to add padding/margin instead. Use <br> to show logical separation in content, when required
+   18. Do not use special characters ("<", "=" etc.,)
+   19. Do not use HTML elements like <b>, <i> etc, instead use the tags which carry some semantics with them, e.g. <em>, <strong>, <mark>, <cite>, <dfn> etc
 
 ### CSS Coding Standards
    1. Use two spaces for indentation in all CSS documents
