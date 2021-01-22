@@ -24,7 +24,7 @@
    1. Write code for mobile form-factor and expand it to work on larger screens
    1. Performance should be a fore-thought, not an after-thought
    1. Use light-weight, high performance libraries
-   1. Always keep the target audience in mind. Our primary users are from India with
+   1. Always keep the target audience in mind. Our primary users are from India with<br>
       inconsistent network speeds and low-powered mobile devices
    1. Optimize images for size, minify/uglify code as much as possible
    1. The page load time for an individual page should not exceed 2.0s on a fast-3G network
@@ -38,14 +38,14 @@
    1. Always keep the master/main branch in deployable condition
 
 ### Responsive Design
-   1. All Virtual Labs experiments must be responsive and mobile-first.
+   1. All Virtual Labs experiments must be responsive and mobile-first.<br>
       Write code for mobile form-factor and expand it to work on larger screens
-   1. Use a responsive layout scheme, ideally based on flexbox. Bootstrap has support
+   1. Use a responsive layout scheme, ideally based on flexbox. Bootstrap has support<br>
       for flexbox from version 4 onward. Bulma is completely based on flexbox
-   1. Use responsive versions of elements, e.g. 'table-responsive' css class in place of
+   1. Use responsive versions of elements, e.g. 'table-responsive' css class in place of<br>
       'table' css class
    1. Use responsive images
-   1. Design a reasonable column structure for the content. You can reorder the columns
+   1. Design a reasonable column structure for the content. You can reorder the columns<br>
       or stack them so the content makes more sense on different screen sizes
    1. Use flexbox over tables for aligning data so the content stays responsive
    1. Test responsiveness by shrinking the browser window and testing usability
@@ -61,18 +61,18 @@
 
 ### General Web-Development Guidelines
    1. Follow the latest standards, HTML5, ES6 and CSS3
-   1. Strictly use HTML5 tags. With HTML5, html has moved to completely being a markup
-      for explaining the structure of a document(semantic markup vs presentational markup).
+   1. Strictly use HTML5 tags. With HTML5, html has moved to completely being a markup<br>
+      for explaining the structure of a document(semantic markup vs presentational markup).<br>
       CSS is used for styling. All HTML tags used for styling are 'not recommended' in HTML5
-   1. Insert non-critical external JavaScript files at the bottom of the body tag
-      and critical external Javascript and external Style Sheets in the head tag
+   1. Insert non-critical external JavaScript files at the bottom of the body tag<br>
+      and critical external Javascript and external Style Sheets in the head tag<br>
       for better performance
-   1. Alternatively, the non-critical Javascript can also be loaded asynchronously so it does
+   1. Alternatively, the non-critical Javascript can also be loaded asynchronously so it does<br>
       not interfere with html rendering
-   1. Evaluate performance of CDNs for common libraries like Bootstrap, JQuery etc.
-      Sometimes downloading them and linking from your own server is faster because
+   1. Evaluate performance of CDNs for common libraries like Bootstrap, JQuery etc.<br>
+      Sometimes downloading them and linking from your own server is faster because<br>
       many CDNs do not have servers in India.
-   1. Load non-critcal resources lazily and asynchronously. E.g. A video need not be loaded
+   1. Load non-critcal resources lazily and asynchronously. E.g. A video need not be loaded<br>
       until the user actually plays it
    1. Keep styling separated from content structure
    1. Use open-source, popular libraries over writing own code for css or JS
@@ -223,16 +223,17 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
 
 ## Resources and Recomendations
 - **Development**
-    + IDE: VS Code
-    + Code-Formatting: Prettier
-    + Linting: ESLint
-    + Code-completion: Emmet
-    + Local-Server: live-server
-    + Browsers: Chrome, Firefox
+    + **IDE**: VS Code
+    + **Code-Formatting**: Prettier
+    + **Linting**: ESLint
+    + **Code-completion**: Emmet
+    + **Local-Server**: live-server
+    + **Browsers**: Chrome, Firefox
+    + **Unit-testing**: Jest, jsdom
 - **Performance**
-    + Performance Testing: Chrome dev tools<br>
+    + **Performance Testing**: Chrome dev tools<br>
                         [webpagetest](https://webpagetest.org/)
-    + Image compression: [toolur](https://compressimage.toolur.com/)
+    + **Image compression**: [toolur](https://compressimage.toolur.com/)
 - **References**
     + [MDN](https://developer.mozilla.org/)
     + [css-tricks](https://css-tricks.com/)
