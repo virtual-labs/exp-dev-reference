@@ -106,11 +106,11 @@
    1. Do not include styles in html as inline or internal css, instead use external
       stylesheets for each feature to make the html and css clean and maintainable.
    1. Prefer SASS(scss) over CSS for properly nested, easy to read code.
-   1. Do not use <br> for vertical spacing. Use css classes to add padding/margin instead.
-      Use <br> to show logical separation in content, when required
+   1. Do not use \<br\> for vertical spacing. Use css classes to add padding/margin instead.
+      Use \<br\> to show logical separation in content, when required
    1. Do not use special characters ("<", "=" etc.,)
-   1. Do not use HTML elements like <b>, <i> etc, instead use the tags which carry
-      some semantics with them, e.g. <em>, <strong>, <mark>, <cite>, <dfn> etc
+   1. Do not use HTML elements like \<b\>, \<i\> etc, instead use the tags which carry
+      some semantics with them, e.g. \<em\>, \<strong\>, \<mark\>, \<cite\>, \<dfn\> etc
 
 ### CSS Coding Standards
    1. Use two spaces for indentation in all CSS documents and ensure that there are no
@@ -230,7 +230,7 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
     + Local-Server: live-server
     + Browsers: Chrome, Firefox
 - **Performance**
-    + Performance Testing: Chrome dev tools
+    + Performance Testing: Chrome dev tools<br>
                         [webpagetest](https://webpagetest.org/)
     + Image compression: [toolur](https://compressimage.toolur.com/)
 - **References**
