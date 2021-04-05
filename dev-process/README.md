@@ -208,6 +208,12 @@ The Virtual Labs team strongly advises the developers to have automated testing 
 2. Cypress
 3. Selenium
 
+The Virtual Labs experiments should be tested on the following browsers in order to reach the widest audience:
+1. Google Chrome
+1. Mozilla Firefox
+1. Microsoft Edge
+1. Apple Safari
+
 Apart from the functionality testing, the developer also has to ensure that the experiments meet the requirements like responsiveness, size and performance listed earlier. For testing the size and performance of the experiment, the Virtual Labs suggest the following tool: [Webpagetest](https://www.webpagetest.org/).
 
 All of the above frameworks are just general recommendations. The developers are free to choose any framework based on their familiarity and fitness for the task.
@@ -215,6 +221,11 @@ All of the above frameworks are just general recommendations. The developers are
 ### Security Guidelines 
 
 The developer has to ensure that all the experiments work strictly on https. The Virtual Labs will not support any experiments over http going forward.
+
+### Plagiarism
+The Virtual Labs has zero tolarance towards plagiarism. All content submitted to the Virtual Labs must be original. If there is genuine need to use another Author's content, the following conditions must be satisfied:
+1. The Author must have released the content under a Creative Commons License.
+2. The content must be clearly attributed to the Author.
 
 ## Conclusion
 
