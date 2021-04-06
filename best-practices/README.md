@@ -1,9 +1,10 @@
-## Best Practices for Virtual Labs Experiment Development 
+# Best Practices for Virtual Labs Experiment Development 
 
-### Introduction
-  This document lists the best pratices to be followed while developing a Virtual Lab  experiment.
+## Introduction
+  This document lists the best pratices to be followed while developing a Virtual Labs experiment.
 
-### General Principles
+## General Principles
+### Software Engineering Best Practices
    It is imperative to
    1. Organize complexity
    1. Maximize clarity and readability of code
@@ -76,8 +77,33 @@
       until the user actually plays it
    1. Keep styling separated from content structure
    1. Use open-source, popular libraries over writing own code for css or JS
+
+### Use of Libraries
+  The Virtual Labs recommends using open-source, mature, popular libraries with an active and vibrant community. Since web development is a heavily fragmented and loosely standardized area, writing code that works correctly on multiple browsers is very challenging. Libraries encapsulate this problem providing developers a unified interface. It is imperative to choose libraries which are:
+  1. Open-source: So there are no licensing costs and no prohibitive licensing terms
+  1. Mature: So most of the bugs have been solved and paradigms of good development styles are already laid down
+  1. Popular: So there is a large user base where help can be sought and it is easy to find developers conversant with it
+  1. Actively developed: So the code written using them is future proof to a reasonable degree
+  1. Light-weight and modularized: So they have minimal network footprint
+  1. Performant: So the user experience is good
+
+#### Recommendations
+  The Virtual Labs approve of any library following the above guidelines for development. However, the community has found some libraries to be useful. These libraries are recommended for experiment development since they bring more uniformity in the technologies used on the Virtual Labs.
+  ##### CSS
+    1. Bulma - Recommended for being light-weight, modular, responsive by default
+    2. Bootstrap 4 and above
+  
+  ##### Animations
+    1. Anime.js - Easy to use for most basic animation tasks
+    2. Greensock - Complicated, used for very advanced animations
+    3. Three.js - 3D animations
+
+  ##### Graphs
+    1. Plotly
+    2. chart.js
+    3. D3.js - Complicated, comprehensive
       
-### Coding Standards
+## Coding Standards
   The Virtual Labs recommends Google’s coding standard for Javascript. 
   The standard can be accessed [here](https://google.github.io/styleguide/jsguide.html). 
   Coding conventions are style guidelines for programming.
@@ -133,8 +159,8 @@
    1. Try keep all selectors loosely grouped into modules where possible and avoid having
       too many selectors in one declaration to make them easy to override.
 
-## JavaScript Coding Standards
-### Code Indentation
+### JavaScript Coding Standards
+#### Code Indentation
    Always use 2 spaces for indentation of code blocks.
 
 #### Naming Conventions
@@ -237,3 +263,4 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
 - **References**
     + [MDN](https://developer.mozilla.org/)
     + [css-tricks](https://css-tricks.com/)
+    + [ModernCSS](https://moderncss.dev/)
