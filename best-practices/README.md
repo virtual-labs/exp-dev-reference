@@ -264,3 +264,20 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
     + [MDN](https://developer.mozilla.org/)
     + [css-tricks](https://css-tricks.com/)
     + [ModernCSS](https://moderncss.dev/)
+
+    
+## Guidelines given to DASS Students       
+Do not use undeclared variables. To detect unused variables, please run your code through a JS validator with strict validation enabled. Use strict mode for all your Javascript.
+Use camelCase for JS variable and function names, hyphenated names for CSS classes.
+Do not declare variables using var. Use const by default and where it doesn't work, use let.
+Always encapsulate the code under the loops or conditionals in {...} curly brackets even if you only have a single line of code.
+Terminate all lines of code with a ;
+Prefer semantically meaningful functions like forEach, map, reduce etc over a plain old for loop.
+Keep the indentation consistent. Use a styling plugin on your IDE like prettifier to do it automatically.
+Use === for equality comparison in place of ==
+Prefer passing arguments to functions over using global variables.
+Remove dead code and unused variables.
+Use comments to explain the code as necessary.
+Remove the guide comments which are placed to help the developers like '//Your css goes here'.
+Avoid using beta versions of libraries.
+Carefully select questions for pretest and posttest sections based on their motive, viz, prerequisites evaluation and learning evaluation respectively
