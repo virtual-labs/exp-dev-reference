@@ -267,17 +267,17 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
 
     
 ## Guidelines given to DASS Students       
-Do not use undeclared variables. To detect unused variables, please run your code through a JS validator with strict validation enabled. Use strict mode for all your Javascript.
-Use camelCase for JS variable and function names, hyphenated names for CSS classes.
-Do not declare variables using var. Use const by default and where it doesn't work, use let.
-Always encapsulate the code under the loops or conditionals in {...} curly brackets even if you only have a single line of code.
-Terminate all lines of code with a ;
-Prefer semantically meaningful functions like forEach, map, reduce etc over a plain old for loop.
-Keep the indentation consistent. Use a styling plugin on your IDE like prettifier to do it automatically.
-Use === for equality comparison in place of ==
-Prefer passing arguments to functions over using global variables.
-Remove dead code and unused variables.
-Use comments to explain the code as necessary.
-Remove the guide comments which are placed to help the developers like '//Your css goes here'.
-Avoid using beta versions of libraries.
-Carefully select questions for pretest and posttest sections based on their motive, viz, prerequisites evaluation and learning evaluation respectively
+1. Do not use undeclared variables. To detect unused variables, please run your code through a JS validator with strict validation enabled. Use strict mode for all your Javascript.
+1. Use camelCase for JS variable and function names, hyphenated names for CSS classes.
+1. Do not declare variables using var. Use const by default and where it doesn't work, use let.
+1. Always encapsulate the code under the loops or conditionals in {...} curly brackets even if you only have a single line of code.
+1. Terminate all lines of code with a ;
+1. Prefer semantically meaningful functions like forEach, map, reduce etc over a plain old for loop.
+1. Keep the indentation consistent. Use a styling plugin on your IDE like prettifier to do it automatically.
+1. Use === for equality comparison in place of ==
+1. Prefer passing arguments to functions over using global variables.
+1. Remove dead code and unused variables.
+1. Use comments to explain the code as necessary.
+1. Remove the guide comments which are placed to help the developers like '//Your css goes here'.
+1. Avoid using beta versions of libraries.
+1. Carefully select questions for pretest and posttest sections based on their motive, viz, prerequisites evaluation and learning evaluation respectively
