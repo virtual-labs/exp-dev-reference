@@ -1,7 +1,7 @@
 # VirtualBox Installation For Virtual Labs
 
 ## Introduction
-Virtual Labs is an Ministry of Education initiative, Govt of India,  which aims at making the  experiments done in Engineering Colleges available in a Virtual form, to all the college students as an adjunct facility to the physical labs. These labs provide an opportunity to the students to perform these simulated experiments, read the theory and improve their understanding of the subject.
+Virtual Labs is a Ministry of Education initiative, Govt of India,  which aims at making the  experiments done in Engineering Colleges available in a Virtual form, to all the college students as an adjunct facility to the physical labs. These labs provide an opportunity to the students to perform these simulated experiments, read the theory and improve their understanding of the subject.
 
 There are 1800+ Virtual Experiments bundled in 180 + labs spread across 9 domains available for  the users of Virtual Labs. Some of these labs have software dependencies such as Java, Icedtea plugin, Adobe Flash and Java3D to run the simulations. For the convenience of the users,  Virtual Labs offers a free download of a customized VirtualBox with all software dependencies  installed. 
 
