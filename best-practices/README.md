@@ -91,17 +91,17 @@
   The Virtual Labs approve of any library following the above guidelines for development. However, the community has found some libraries to be useful. These libraries are recommended for experiment development since they bring more uniformity in the technologies used on the Virtual Labs.
   ##### CSS
     1. Virtual-style - Virtual Labs library built on top of Bulma
-    1. Bulma - Recommended for being light-weight, modular, responsive by default
-    1. Bootstrap 4 and above
+    2. Bulma - Recommended for being light-weight, modular, responsive by default
+    3. Bootstrap 4 and above
   
   ##### Animations
     1. Anime.js - Easy to use for most basic animation tasks
-    1. Greensock - Complicated, used for very advanced animations
+    2. Greensock - Complicated, used for very advanced animations
 
   ##### Graphs
     1. Plotly
-    1. chart.js
-    1. D3.js - Complicated, comprehensive
+    2. chart.js
+    3. D3.js - Complicated, comprehensive
       
 ## Coding Standards
   The Virtual Labs recommends Google’s coding standard for Javascript. 
