@@ -281,3 +281,12 @@ It is recommended to use the font-family : “Helvetica Neue”,Helvetica,Arial,
 1. Remove the guide comments which are placed to help the developers like '//Your css goes here'.
 1. Avoid using beta versions of libraries.
 1. Carefully select questions for pretest and posttest sections based on their motive, viz, prerequisites evaluation and learning evaluation respectively
+  
+### In general we follow the following guidelines before deciding on the usability of a library:
+1. It should be a popular library with a large active community. Github starts and forks can be checked to ascertained this.
+1. It should be a mature library with a few years' development behind it already.
+1. It should be in active development, which means there should be recent releases. In web world, anything older than 1-2 years is obsolete.
+1. It should be open-sourced with a permissive license.
+1. It should be light-weight with high-performance and preferably modular.
+1. We can obviously overlook some of these guidelines in case there is a compelling use case, but that would be more of an exception.
+1. Please discuss on the Slack channel before deciding to use any library other than the already approved ones.
