@@ -28,14 +28,14 @@ Virtual Lab follows a well defined experiment development process. An experiment
 
 ### 1. Expression of Interest & Proposal Submission 
 
-Experiments are developed in a group. The experiment developers create a collection of related experiments, which is called a lab. The experiment development process starts with an Expression of interest for the lab. To express the interest for developing a new lab, the developer fills the expression of interest form available [here](https://docs.google.com/forms/d/e/1FAIpQLScJLmmikiXIW7VfBqxyMO_vxzjC0sIacGAdsjQTPj58T9K8FA/viewform). A completely filled lab proposal document needs to be sent to proposals@vlabs.ac.in. The [template](https://docs.google.com/document/d/1BRizPSSZaQeBIYpDjJzVDpLCdltrWC5fyaoiuEdVvUo/edit?usp=sharing) of the Lab Proposal document is available [here](https://docs.google.com/document/d/1F1VEK0e3-rCRedkc3EkSzKxw-Mf-qoLgieyYPWhtqTo/edit?usp=sharing). 
+Experiments are developed in a group. The experiment developers create a collection of related experiments, which is called a lab. The experiment development process starts with an Expression of interest for the lab. To express the interest for developing a new lab, the developer fills the expression of interest form available [here](https://docs.google.com/forms/d/e/1FAIpQLScJLmmikiXIW7VfBqxyMO_vxzjC0sIacGAdsjQTPj58T9K8FA/viewform). A completely filled lab proposal document needs to be sent to proposals@vlabs.ac.in. The template of the Lab Proposal document is available [here](https://docs.google.com/document/d/1F1VEK0e3-rCRedkc3EkSzKxw-Mf-qoLgieyYPWhtqTo/edit?usp=sharing). 
 
 ### 2. Proposal Review
 On receipt of the Expression of Interest form, the Virtual Labs team reviews the proposal and either sends out an acceptance mail or suggests improvements to the proposal. 
 
 ### 3. Experiment Repositories Creation 
 
-Once the proposal is accepted by the Virtual Labs team, the developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) of type Phase III Experiment Repository Creation Request on engineers-forum repository under the  virtual-labs organization on Github. The developer attaches the pdf of the approved proposal to the request issue.
+Once the proposal is accepted by the Virtual Labs team, the developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) of type Experiment Repository Creation Request on engineers-forum repository under the  virtual-labs organization on Github. The developer attaches the pdf of the approved proposal to the request issue.
 
 The Virtual Labs team creates a git repository for each experiment of the proposed lab. This repository is the single source of truth for the experiment. It contains all the resources and all communication related to the experiment.
 The git repository created by the Virtual Labs team contains templates along with examples for all the documents to be submitted as part of the experiment development process.
@@ -147,7 +147,7 @@ There are certain basic technical requirements that all experiments must follow 
 1. All experiments must work on https
 2. All experiments must follow responsive design principles
 3. All experiments should be static, without any server side components (exceptions available on merits)
-4. Average load size of all page on the experiment (including the loaded 3rd party libraries) should be below 5MB with no single page with load size of more than   10MB (exceptions available on merits)
+4. Average load size of all page on the experiment (including the loaded 3rd party libraries) should be below 2MB with no single page with load size of more than   5MB (exceptions available on merits)
 5. The average load time for all pages on the experiment should be below 1.5 seconds with no single page with load time more than 3 seconds on a fast 3G  connection (exceptions available on merits)
 
 ### 9. Experiment Review
@@ -171,7 +171,7 @@ Along with the above details for each experiment, the issue should contain the f
   a. Github handle of the developer 
 5.Approved Proposal as an attachment
 
-The Virtual Labs hosting team picks up the source code from the tag in the experiment repository and builds all experiments with the common Virtual Labs UI. The hosting team also builds the lab as a container for all the experiments. The hosting team, then deploys the lab and all experiments to the centrally managed cloud. Once the deployment process is complete, the experiments are ready to be used by the target audience. A detailed description of the hosting process can be found [here](https://github.com/virtual-labs/engineers-forum/blob/master/hosting-process.org).
+The Virtual Labs hosting team picks up the source code from the tag in the experiment repository and builds all experiments with the common Virtual Labs UI. The hosting team also builds the lab as a container for all the experiments. The hosting team, then deploys the lab and all experiments to the centrally managed cloud. Once the deployment process is complete, the experiments are ready to be used by the target audience. A detailed description of the hosting process can be found [here](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/onboarding-hosting-process.md).
 
 ### 12. Lab/Experiment Evaluation and Analytics
 
@@ -187,7 +187,7 @@ The experiment developer can access these parameters and can evaluate the perfor
 ### 13. Experiment Update/Upgrade
 
 The analysis of the evaluation data or bug reports filed by end users or other stakeholders may necessitate or suggest the experiment being updated or upgraded. In this way, the experiment developer stays involved with the experiment through its complete lifecycle.
-Each time the experiment is updated, a new hosting request has to be raised in order to rehost the experiment. Each new hosting request must have a unique tag in order to uniquely identify the source code deployed for that hosting request.
+For every experiment update, rehosting has to be requested on the original lab hosting request. This rehosting request must have an unique tag in order to identify the source code to be deployed for that hosting request.
 
 ### 14. Experiment Archival
 
