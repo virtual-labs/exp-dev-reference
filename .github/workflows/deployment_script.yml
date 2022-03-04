@@ -14,6 +14,7 @@ jobs:
         cd ph3-lab-mgmt/ph3-beta-to-ui3.0-conv
         make host-experiments
         cd ../../
+        cp -rf dev-process build
         git config --local user.email "admin@vlabs.ac.in"
         git config --local user.name "vleadadmin"
         git checkout --orphan gh-pages
