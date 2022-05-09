@@ -1,0 +1,40 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Bubble Sort Algorithm",     
+			"Lab": "Data Structures",               
+			"Discipline": "Computer Science and Engineering",				 
+			"Technology": "HTML, JavaScript, CSS"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Prof. Venkatesh Choppella",         
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",         
+      "InstituteAcronym": "IIITH"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Aashna",             
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
+       },
+
+       {       
+			"Contributer": "Dvijaywargiya",              
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
+       },
+
+       {       
+			"Contributer": "Ashwin",             
+      "Institute": "International Institure of Information Technology Hyderabad, Hyderabad",               
+			"InstituteAcronym": "IIITH"         
+       }
+   ]
+
+}
