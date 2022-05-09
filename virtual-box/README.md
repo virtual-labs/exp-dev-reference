@@ -92,7 +92,7 @@ Steps to import Ubuntu ( .ova file )in VirtualBox :
 
 **Note :** The import steps need to be done only once.
 
-1. Click on the [link](https://gitlab.com/SRIP/ubuntu-os/-/blob/master/ubuntu-virtualbox.ova) to download the Ubuntu OS image file and save the **ubuntu-14.04-college-cloud.ova** in your machine.
+1. Click on the [link](https://drive.google.com/file/d/1sFWId8LPAUK0YTkTEizLQ-cJF1jYShuf/view) to download the Ubuntu OS image file and save the **ubuntu-14.04-college-cloud.ova** in your machine.
 
 2. Click on the **VirtualBox** Icon to open.
 
