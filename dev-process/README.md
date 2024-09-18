@@ -1,5 +1,5 @@
 
-# Virtual Labs - Lab & Experimnet Lifecyle
+# Virtual Labs - Lab & Experiment Lifecyle
 
 ## Introduction
 The environmental and social changes brought about by the Corona pandemic have precipitated a mindset shift towards the virtual methods of learning. As a result Virtual Labs has witnessed a significant increase in the expression of interests for the development of new experiments. In the light of this increased interest, it becomes pertinent to publish the process for building and contributing new experiments to the Virtual Labs ecosystem. This document serves as a guideline for creating a new experiment from conception to deployment.
