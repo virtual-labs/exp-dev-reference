@@ -1,7 +1,7 @@
 # Best Practices for Virtual Labs Experiment Development 
 
 ## Introduction
-  This document lists the best pratices to be followed while developing a Virtual Labs experiment.
+  This document lists the best practices to be followed while developing a Virtual Labs experiment.
 
 ## General Principles
 ### Software Engineering Best Practices
