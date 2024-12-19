@@ -230,6 +230,33 @@
       images, videos etc.,
 
 
+## Making Your Experiment Responsive  
+
+Creating a responsive design ensures your experiment is accessible and user-friendly across various devices and screen sizes. Here are some best practices to guide you:  
+
+1. **Evaluate Your Interface Elements**:  
+   - Assess the necessity of each UI element. Do you need all those buttons, or could some be converted into drop-down menus?  
+   - Can large 3D images or graphics be minimized without compromising functionality?  
+   - Decide which elements are essential to display prominently and which can be tucked into menus (e.g., top/bottom navigation bars or hamburger menus).  
+
+2. **Optimize Screen Layout**:  
+   - Determine which elements must always be visible on-screen (e.g., key input fields or results) and which can be accessible via toggles or menus.  
+   - Prioritize and organize content. For instance, if multiple panels (like diagrams and logs) compete for space, consider stacking them vertically or using tabs to maximize usability.  
+
+3. **Inspiration and Benchmarking**:  
+   - Research how other apps or websites with similar functionality manage their screen layouts. Studying these solutions can provide valuable design inspiration.  
+   - **Tip**: Please check the links under the **“Sample Experiments”** bookmark in the virtual-labs-developers-group Slack channel. They might provide you with some useful ideas.  
+
+4. **Leverage Modern CSS Frameworks**:  
+   - Utilize responsive CSS frameworks like **Bootstrap (v5+)** or **Bulma**, which provide built-in responsiveness for most use cases.  
+   - For unique requirements, test your design by resizing your screen to identify layout issues. Use **media queries** to adjust and reorganize UI elements dynamically based on screen width.  
+
+5. **Continuous Testing**:  
+   - Shrink the browser screen to simulate smaller devices and observe how your layout behaves. Ensure smooth transitions and that no critical information is lost or hidden.  
+   - Adjust the design to enhance usability, ensuring critical functionalities remain intuitive and accessible.  
+
+By following these principles, you can create a responsive and user-friendly experiment interface that works seamlessly across different devices and screen sizes.  
+
 
 ## Color/Themes
 It is recommended to use the colors defined below for images and simulation. </br>
